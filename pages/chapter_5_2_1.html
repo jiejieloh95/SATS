@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>Middleman</title>
+    <!-- Stylesheet -->
+<link href="../stylesheets/lib.min.css" rel="stylesheet">
+<link href="../stylesheets/app.css" rel="stylesheet">
+
+<!-- End Stylesheet -->
+    <link href="https://vjs.zencdn.net/5.8/video-js.min.css" rel="stylesheet">
+    <script src="https://vjs.zencdn.net/5.8/video.min.js"></script>
+  </head>
+  <body>
+    <div class="page wrapper">
+      <!--<div class="rotate-message">
+        Please rotate your screen to get a better user experience.
+      </div>-->
+      <div class="page-chapter-5_2_1 full-screen">
+
+  <div class="container-fluid">
+    <div class="chapter-container">
+      <!--<div class="leave-container">
+  <div class="action">
+    <a href="./chapter_2_2.html"><img src="../images/btn-close-orange.png" class="img-responsive"></a>
+  </div>
+</div>
+-->
+      <div class="chapter-frame active">
+        <!-- Scene One -->
+        <div class="scene-one chapter-div landing-div active" style="background-image:url('../images/5_2/sats_ppl101_chp5_05b.jpg');">
+          <div class="leave-container">
+  <div class="action">
+    <a href="./chapter_5_2.html"><img src="../images/btn-close-orange.png" class="img-responsive"></a>
+  </div>
+</div>
+
+          <!-- <a href="javascript:;" class="button button-question-one" data-switch-room="#questionONE">CONTINUE</a> -->
+
+          <a class="scene-one-btn-continue" href="javascript:;" data-switch-room="#questionONE"></a>
+        </div>
+
+        <!-- Scene Two -->
+        <div id="questionONE" class="chapter-div landing-div qONE" style="background-image:url('../images/5_2/sats_ppl101_chp5_Q1.jpg');">
+          <div class="answer-frame active">
+            <a href="javascript:;" class="button button-question-true" data-inner-room="correct">TRUE</a>
+            <a href="javascript:;" class="button button-question-false" data-inner-room="wrong">FALSE</a>
+            <img src="../images/5_2/wave_original-8.png" class="bg"/>
+          </div>
+          <div class="wrong-frame">
+            <img src="../images/5_2/wrong.png" class="text" />
+            <a href="javascript:;" class="button button-question-continue" data-switch-room="#questionTWO">CONTINUE</a>
+            <img src="../images/5_2/wave_wrong-8.png" class="bg-feedback"/>
+
+            <a class="button button-question-true">TRUE</a>
+            <a class="button button-question-false button-focus">FALSE</a>
+            <img src="../images/5_2/wave_original-8.png" class="bg"/>
+
+          </div>
+          <div class="correct-frame">
+            <img src="../images/5_2/correct.png" class="text" />
+            <a href="javascript:;" class="button button-question-continue" data-switch-room="#questionTWO">CONTINUE</a>
+            <img src="../images/5_2/wave_correct-8.png" class="bg-feedback"/>
+
+            <a class="button button-question-true button-focus">TRUE</a>
+            <a class="button button-question-false">FALSE</a>
+            <img src="../images/5_2/wave_original-8.png" class="bg"/>
+
+          </div>
+        </div>
+
+        <!-- Scene Three -->
+        <div id="questionTWO" class="chapter-div landing-div" style="background-image:url('../images/5_2/sats_ppl101_chp5_Q2.jpg');">
+          <div class="answer-frame active">
+            <a href="javascript:;" class="button button-question-true" data-inner-room="correct">TRUE</a>
+            <a href="javascript:;" class="button button-question-false" data-inner-room="wrong">FALSE</a>
+            <img src="../images/5_2/wave_original-8.png" class="bg"/>
+          </div>
+          <div class="wrong-frame">
+            <img src="../images/5_2/wrong.png" class="text" />
+            <a href="javascript:;" class="button button-question-continue" data-switch-room="#questionTHREE">CONTINUE</a>
+            <img src="../images/5_2/wave_wrong-8.png" class="bg-feedback"/>
+
+            <a class="button button-question-true">TRUE</a>
+            <a class="button button-question-false  button-focus">FALSE</a>
+            <img src="../images/5_2/wave_original-8.png" class="bg"/>
+
+          </div>
+          <div class="correct-frame">
+            <img src="../images/5_2/correct.png" class="text" />
+            <a href="javascript:;" class="button button-question-continue" data-switch-room="#questionTHREE">CONTINUE</a>
+            <img src="../images/5_2/wave_correct-8.png" class="bg-feedback"/>
+
+            <a class="button button-question-true button-focus">TRUE</a>
+            <a class="button button-question-false">FALSE</a>
+            <img src="../images/5_2/wave_original-8.png" class="bg"/>
+
+          </div>
+        </div>
+
+
+        <!-- Scene Four -->
+        <div id="questionTHREE" class="chapter-div landing-div" style="background-image:url('../images/5_2/sats_ppl101_chp5_Q3.jpg');">
+          <div class="answer-frame active">
+            <a href="javascript:;" class="button button-question-true" data-inner-room="correct">TRUE</a>
+            <a href="javascript:;" class="button button-question-false" data-inner-room="wrong">FALSE</a>
+            <img src="../images/5_2/wave_original-8.png" class="bg"/>
+          </div>
+          <div class="wrong-frame">
+            <img src="../images/5_2/wrong.png" class="text" />
+            <a href="javascript:;" class="button button-question-continue" data-switch-room="#questionFOUR">CONTINUE</a>
+            <img src="../images/5_2/wave_wrong-8.png" class="bg-feedback"/>
+
+            <a class="button button-question-true">TRUE</a>
+            <a class="button button-question-false  button-focus">FALSE</a>
+            <img src="../images/5_2/wave_original-8.png" class="bg"/>
+
+          </div>
+          <div class="correct-frame">
+            <img src="../images/5_2/correct.png" class="text" />
+            <a href="javascript:;" class="button button-question-continue" data-switch-room="#questionFOUR">CONTINUE</a>
+            <img src="../images/5_2/wave_correct-8.png" class="bg-feedback"/>
+
+            <a class="button button-question-true button-focus">TRUE</a>
+            <a class="button button-question-false">FALSE</a>
+            <img src="../images/5_2/wave_original-8.png" class="bg"/>
+
+          </div>
+        </div>
+
+
+        <!-- Scene Five -->
+        <div id="questionFOUR" class="chapter-div landing-div" style="background-image:url('../images/5_2/sats_ppl101_chp5_Q4.jpg');">
+          <div class="answer-frame active">
+            <a href="javascript:;" class="button button-question-true" data-inner-room="wrong">TRUE</a>
+            <a href="javascript:;" class="button button-question-false" data-inner-room="correct">FALSE</a>
+            <img src="../images/5_2/wave_original-8.png" class="bg"/>
+          </div>
+          <div class="wrong-frame">
+            <img src="../images/5_2/wrong.png" class="text" />
+            <a href="javascript:;" class="button button-question-continue" data-switch-room="#questionFIVE">CONTINUE</a>
+            <img src="../images/5_2/wave_wrong-8.png" class="bg-feedback"/>
+
+            <a class="button button-question-true button-focus">TRUE</a>
+            <a class="button button-question-false">FALSE</a>
+            <img src="../images/5_2/wave_original-8.png" class="bg"/>
+
+          </div>
+          <div class="correct-frame">
+            <img src="../images/5_2/correct.png" class="text" />
+            <a href="javascript:;" class="button button-question-continue" data-switch-room="#questionFIVE">CONTINUE</a>
+            <img src="../images/5_2/wave_correct-8.png" class="bg-feedback"/>
+
+            <a class="button button-question-true">TRUE</a>
+            <a class="button button-question-false button-focus">FALSE</a>
+            <img src="../images/5_2/wave_original-8.png" class="bg"/>
+
+          </div>
+        </div>
+
+        <!-- Scene Six -->
+        <div id="questionFIVE" class="chapter-div landing-div" style="background-image:url('../images/5_2/sats_ppl101_chp5_Q5.jpg');">
+          <div class="answer-frame active">
+            <a href="javascript:;" class="button button-question-true" data-inner-room="wrong">TRUE</a>
+            <a href="javascript:;" class="button button-question-false" data-inner-room="correct">FALSE</a>
+            <img src="../images/5_2/wave_original-8.png" class="bg"/>
+          </div>
+          <div class="wrong-frame">
+            <img src="../images/5_2/wrong.png" class="text" />
+            <a href="javascript:;" class="button button-question-continue" data-switch-room="#questionEND">CONTINUE</a>
+            <img src="../images/5_2/wave_wrong-8.png" class="bg-feedback"/>
+
+            <a class="button button-question-true button-focus">TRUE</a>
+            <a class="button button-question-false">FALSE</a>
+            <img src="../images/5_2/wave_original-8.png" class="bg"/>
+
+          </div>
+          <div class="correct-frame">
+            <img src="../images/5_2/correct.png" class="text" />
+            <a href="javascript:;" class="button button-question-continue" data-switch-room="#questionEND">CONTINUE</a>
+            <img src="../images/5_2/wave_correct-8.png" class="bg-feedback"/>
+
+            <a class="button button-question-true">TRUE</a>
+            <a class="button button-question-false button-focus">FALSE</a>
+            <img src="../images/5_2/wave_original-8.png" class="bg"/>
+
+          </div>
+        </div>
+
+        <!-- Scene Six -->
+        <div id="questionEND" class="chapter-div landing-div" style="background-image:url('../images/5_2/sats_ppl101_chp5_Q6.jpg');">
+          <img src="../images/5_2/completed.png" class="complete-text"/>
+          <a href="./chapter_6_1.html" class="button button-exit">OK</a>
+          <div class="answer-frame active">
+            <img src="../images/5_2/wave_original-8.png" class="bg"/>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+  </div>
+
+
+</div>
+
+
+    </div>
+    <!-- Javascript -->
+
+<script src="../javascripts/jquery.min.js"></script>
+<script src="../javascripts/lib.min.js"></script>
+<script src="../javascripts/app.js"></script>
+
+<!-- End Javascript -->
+      <div>  <script>
+    window.sats.chapter.five.two.init();
+  </script>
+</div>
+  </body>
+</html>

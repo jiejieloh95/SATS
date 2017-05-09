@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>Middleman</title>
+    <!-- Stylesheet -->
+<link href="../stylesheets/lib.min.css" rel="stylesheet">
+<link href="../stylesheets/app.css" rel="stylesheet">
+
+<!-- End Stylesheet -->
+    <link href="https://vjs.zencdn.net/5.8/video-js.min.css" rel="stylesheet">
+    <script src="https://vjs.zencdn.net/5.8/video.min.js"></script>
+  </head>
+  <body>
+    <div class="page wrapper">
+      <!--<div class="rotate-message">
+        Please rotate your screen to get a better user experience.
+      </div>-->
+      <div class="page-chapter-4_2_1 full-screen">
+ 
+  <div class="container-fluid">
+    <div class="chapter-container">
+      <!--<div class="leave-container">
+  <div class="action">
+    <a href="./chapter_2_2.html"><img src="../images/btn-close-orange.png" class="img-responsive"></a>
+  </div>
+</div>
+-->
+      <div class="chapter-frame active">
+
+      <div class="scene-zero chapter-div landing-div active" style="background-image:url('../images/sats_ppl101_chp4_act1.jpg');">
+          <div class="leave-container">
+  <div class="action">
+    <a href="./chapter_4_2.html"><img src="../images/btn-close-orange.png" class="img-responsive"></a>
+  </div>
+</div>
+
+          <!-- <a href="javascript:;" class="button button-question-one" data-switch-room="#questionAAnswerRoom">CONTINUE</a> -->
+
+          <a class="scene-one-btn-continue" href="javascript:;" data-switch-room="#questionAAnswerRoom"></a>
+
+        </div>
+
+        <!-- Scene One -->
+        <div class="scene-one chapter-div landing-div " id="questionAAnswerRoom" style="background-color :#8b8b8b">
+          <img src="../images/4_2/banner.png" class="img-responsive banner" />
+          <div class="title_selection" data-answer-selected="1" data-target-id="s12"></div>
+          <div class="content" style="padding: 15px 0;margin-top:10px;background-color: #fafafa;height: 80%;overflow: auto">
+
+            <div class="inner-content" style="padding: 15px 40px 20px 40px">
+              <span><img src="../images/4_2/pencil.png" style="float:left;display:inline-block;width:20px;margin-right: 5px;" class="img-responsive" /> REQUIREMENT:</span>
+              <div class="section-answer">
+                <ul type="bullet" style="padding: 0 0 0 20px;margin: 5px 0 0 0 ">
+                 <!-- 1 mean correct, 0 mean wrong -->
+                 <li><a href="javascript:;" data-answer-selected="1" data-target-id="s1">Preferably a Singaporean Chinese</a></li>
+                 <li><a href="javascript:;" data-answer-selected="0" data-target-id="s2">Bachelor's Degree in Statistics, Computer Science, Information Systems, Business Administration, or other related field and/or equivalent work experience</a></li>
+                 <li><a href="javascript:;" data-answer-selected="0" data-target-id="s3">Minimum 2 years' experience in business performance analysis</a></li>
+                 <li><a href="javascript:;" data-answer-selected="0" data-target-id="s4">Experience in Business Process Management, aviation experience will be an added advantage.</a></li>
+                 <li><a href="javascript:;" data-answer-selected="1" data-target-id="s5">Preferably a male with strong analytic skills are required</a></li>
+                 <li><a href="javascript:;" data-answer-selected="1" data-target-id="s6">Below 30 years old who is good in using Microsoft Excel data analysis tools or statistical software. Experience in SAP, CRM or related systems will be an added advantage.</a></li>
+                 <li><a href="javascript:;" data-answer-selected="0" data-target-id="s7">A team player with good initiative, strategic thinking, strong analytical skills and proven performance in problem solving.</a></li>
+                 <li><a href="javascript:;" data-answer-selected="0" data-target-id="s8">Demonstrated ability to interact and work effectively across functional teams and at multiple levels within the organisation.</a></li>
+                 <li><a href="javascript:;" data-answer-selected="0" data-target-id="s9">Strong verbal and written communication and presentation skills.</a></li>
+                 <li><a href="javascript:;" data-answer-selected="1" data-target-id="s10">Candidates with kids are not preferred as the job requires high commitment.</a></li>
+                 <li><a href="javascript:;" data-answer-selected="0" data-target-id="s11">Proven organisational and leadership skills to motivate and influence others positively to drive for results</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="notice-absolute" style="color: #fafafa;background-color :#8b8b8b;padding: 15px 40px;"><span>Hint: Do not use abbreviations in your notice</span><br/>
+                <span>Be sensitive; employment-related requirements should not include factors such as age, race, gender, religion, family status or disability</span>
+            </div>
+
+            <div class="wrong-frame wrong-frame-2">
+              <img src="../images/5_2/wrong.png" class="text" />
+              <img src="../images/wrong.png" class="ico"/><p>Opps, it seem like you got it wrong!</p>
+              <a href="javascript:;" class="button button-question-continue" data-remove-frame>CONTINUE</a>
+              <div style="background-color:#F1535A;" class="bg"/></div>
+            </div>
+            <div class="correct-frame wrong-frame-2 ">
+              <img src="../images/5_2/correct.png" class="text" />
+              <img src="../images/correct.png" class="ico"/><p>Yes, you got it right</p>
+              <a href="javascript:;" class="button button-question-continue" data-remove-frame>CONTINUE</a>
+              <div style="background-color:#00AE68;" class="bg"/></div>
+            </div>
+            <div class="explain-frame" id="questionAExplainRoom">
+              <a href="javascript:;" style="position: absolute;right: 17px;top: 17px;width: 36px;" data-remove-active="#questionAExplainRoom"><img src="../images/btn-close-green.png" class="img-responsive"></a>
+
+                <div data-target-explain="s1" class="content" style="max-height: 100%;overflow: auto;">
+                  explain 1
+                </div>
+                <div data-target-explain="s2" class="content" style="max-height: 100%;overflow: auto;">
+                  explain 2
+                </div>
+                <div data-target-explain="s3" class="content" style="max-height: 100%;overflow: auto;">
+                  explain 3
+                </div>
+                <div data-target-explain="s4" class="content" style="max-height: 100%;overflow: auto;">
+                  explain 4
+                </div>
+                <div data-target-explain="s5" class="content" style="max-height: 100%;overflow: auto;">
+                  explain 5
+                </div>
+                <div data-target-explain="s6" class="content" style="max-height: 100%;overflow: auto;">
+                  explain 6
+                </div>
+                <div data-target-explain="s7" class="content" style="max-height: 100%;overflow: auto;">
+                  explain 7
+                </div>
+                <div data-target-explain="s8" class="content" style="max-height: 100%;overflow: auto;">
+                  explain 8
+                </div>
+                <div data-target-explain="s9" class="content" style="max-height: 100%;overflow: auto;">
+                  explain 9
+                </div>
+                <div data-target-explain="s10" class="content" style="max-height: 100%;overflow: auto;">
+                  explain 10
+                </div>
+                <div data-target-explain="s11" class="content" style="max-height: 100%;overflow: auto;">
+                  explain 11
+                </div>
+
+
+            </div>
+
+          
+          </div>
+        </div>
+
+
+        <div id="questionZero" class="chapter-div landing-div " style="background-image:url('../images/sats_ppl101_chp4_act2.jpg');">
+
+                <!-- <a href="javascript:;" class="button" data-switch-room="#questionONE">CONTINUE</a> -->
+                <a class="scene-one-btn-continue" href="javascript:;" data-switch-room="#questionONE"></a>
+
+        </div>
+
+        <!-- Scene Two -->
+            <div id="questionONE" class="chapter-div landing-div " style="background-image:url('../images/4_2/a_1.jpg');">
+  <a href="javascript:;" data-scene-select="#questionONE" data-scene-answer="false" class="answer left"><img src="../images/4_2/a_b.png" class="img-responsive"/></a>
+  <a href="javascript:;" data-scene-select="#questionONE" data-scene-answer="true" class="answer right"><img src="../images/4_2/a_b.png" class="img-responsive"/></a>
+
+  <div class="wrong-frame frame-3 active">
+    <img src="../images/5_2/wrong.png" class="text" />
+    <img src="../images/wrong.png" class="ico"/><p>Opps, it seem like you got it wrong!</p>
+    <a href="javascript:;" class="button button-question-knowmore" data-switch-knowmoreroom="#questionONE" style="right:11%;" >KNOW MORE</a>
+    <!-- <a href="javascript:;" class="button button-question-continue" data-switch-room="#questionTWO">CONTINUE</a> -->
+
+    <div style="background-color:#F1535A;" class="bg"/></div>
+  </div>
+ 
+  <div class="correct-frame frame-3 ">
+    <img src="../images/5_2/correct.png" class="text" />
+    <img src="../images/correct.png" class="ico"/><p>Yes, you got it right</p>
+    <a href="javascript:;" class="button button-question-knowmore" data-switch-knowmoreroom="#questionONE" style="right:11%;">KNOW MORE</a>
+    <!-- <a href="javascript:;" class="button button-question-continue" data-switch-room="#questionTWO">CONTINUE</a> -->
+    <div style="background-color:#00AE68;" class="bg"/></div>
+  </div>
+
+  <div class="explain-frame">
+
+    <a href="javascript:;" style="position: absolute;right: 17px;top: 17px;width: 36px;" data-switch-room="#questionTWO"><img src="../images/btn-close-green.png" class="img-responsive button-question-continue"></a>
+
+    <div class="content" style="max-height: 100%;overflow: auto;">      
+      Read through the application form or resume of the interviewee before the interview. This helps in the preparation of the interview. While reading through the application form, you should identify areas where you need clarification on such as length of service in the previous job.
+    </div>
+  </div>
+</div>
+
+            <div id="questionTWO" class="chapter-div landing-div " style="background-image:url('../images/4_2/a_2.jpg');">
+  <a href="javascript:;" data-scene-select="#questionTWO" data-scene-answer="false" class="answer left"><img src="../images/4_2/a_b.png" class="img-responsive"/></a>
+  <a href="javascript:;" data-scene-select="#questionTWO" data-scene-answer="true" class="answer right"><img src="../images/4_2/a_b.png" class="img-responsive"/></a>
+
+  <div class="wrong-frame frame-3 active">
+    <img src="../images/5_2/wrong.png" class="text" />
+    <img src="../images/wrong.png" class="ico"/><p>Opps, it seem like you got it wrong!</p>
+    <a href="javascript:;" class="button button-question-knowmore" data-switch-knowmoreroom="#questionTWO" style="right:11%;" >KNOW MORE</a>
+    <!-- <a href="javascript:;" class="button button-question-continue" data-switch-room="#questionTHREE">CONTINUE</a> -->
+
+    <div style="background-color:#F1535A;" class="bg"/></div>
+  </div>
+ 
+  <div class="correct-frame frame-3 ">
+    <img src="../images/5_2/correct.png" class="text" />
+    <img src="../images/correct.png" class="ico"/><p>Yes, you got it right</p>
+    <a href="javascript:;" class="button button-question-knowmore" data-switch-knowmoreroom="#questionTWO" style="right:11%;">KNOW MORE</a>
+    <!-- <a href="javascript:;" class="button button-question-continue" data-switch-room="#questionTHREE">CONTINUE</a> -->
+    <div style="background-color:#00AE68;" class="bg"/></div>
+  </div>
+
+  <div class="explain-frame">
+
+    <a href="javascript:;" style="position: absolute;right: 17px;top: 17px;width: 36px;" data-switch-room="#questionTHREE"><img src="../images/btn-close-green.png" class="img-responsive button-question-continue"></a>
+
+    <div class="content" style="max-height: 100%;overflow: auto;">      
+      Know what are the necessary skills for the position. Be certain of the details of the role such as shift timings, job requirements, remuneration and other information that the candidate might ask. You do not wish to be caught unprepared and run the risk of appearing unprofessional.
+    </div>
+  </div>
+</div>
+
+            <div id="questionTHREE" class="chapter-div landing-div " style="background-image:url('../images/4_2/a_3.jpg');">
+  <a href="javascript:;" data-scene-select="#questionTHREE" data-scene-answer="true" class="answer left"><img src="../images/4_2/a_b.png" class="img-responsive"/></a>
+  <a href="javascript:;" data-scene-select="#questionTHREE" data-scene-answer="false" class="answer right"><img src="../images/4_2/a_b.png" class="img-responsive"/></a>
+
+  <div class="wrong-frame frame-3 active">
+    <img src="../images/5_2/wrong.png" class="text" />
+    <img src="../images/wrong.png" class="ico"/><p>Opps, it seem like you got it wrong!</p>
+    <a href="javascript:;" class="button button-question-knowmore" data-switch-knowmoreroom="#questionTHREE" style="right:11%;" >KNOW MORE</a>
+    <!-- <a href="javascript:;" class="button button-question-continue" data-switch-room="#questionFOUR">CONTINUE</a> -->
+
+    <div style="background-color:#F1535A;" class="bg"/></div>
+  </div>
+ 
+  <div class="correct-frame frame-3 ">
+    <img src="../images/5_2/correct.png" class="text" />
+    <img src="../images/correct.png" class="ico"/><p>Yes, you got it right</p>
+    <a href="javascript:;" class="button button-question-knowmore" data-switch-knowmoreroom="#questionTHREE" style="right:11%;">KNOW MORE</a>
+    <!-- <a href="javascript:;" class="button button-question-continue" data-switch-room="#questionFOUR">CONTINUE</a> -->
+    <div style="background-color:#00AE68;" class="bg"/></div>
+  </div>
+
+  <div class="explain-frame">
+
+    <a href="javascript:;" style="position: absolute;right: 17px;top: 17px;width: 36px;" data-switch-room="#questionFOUR"><img src="../images/btn-close-green.png" class="img-responsive button-question-continue"></a>
+
+    <div class="content" style="max-height: 100%;overflow: auto;">      
+      Never ask a leading question as it subtly prompts the candidate to provide an answer in a particular way.
+    </div>
+  </div>
+</div>
+
+            <div id="questionFOUR" class="chapter-div landing-div " style="background-image:url('../images/4_2/a_4.jpg');">
+  <a href="javascript:;" data-scene-select="#questionFOUR" data-scene-answer="false" class="answer left"><img src="../images/4_2/a_b.png" class="img-responsive"/></a>
+  <a href="javascript:;" data-scene-select="#questionFOUR" data-scene-answer="true" class="answer right"><img src="../images/4_2/a_b.png" class="img-responsive"/></a>
+
+  <div class="wrong-frame frame-3 active">
+    <img src="../images/5_2/wrong.png" class="text" />
+    <img src="../images/wrong.png" class="ico"/><p>Opps, it seem like you got it wrong!</p>
+    <a href="javascript:;" class="button button-question-knowmore" data-switch-knowmoreroom="#questionFOUR" style="right:11%;" >KNOW MORE</a>
+    <!-- <a href="javascript:;" class="button button-question-continue" data-switch-room="#questionFIVE">CONTINUE</a> -->
+
+    <div style="background-color:#F1535A;" class="bg"/></div>
+  </div>
+ 
+  <div class="correct-frame frame-3 ">
+    <img src="../images/5_2/correct.png" class="text" />
+    <img src="../images/correct.png" class="ico"/><p>Yes, you got it right</p>
+    <a href="javascript:;" class="button button-question-knowmore" data-switch-knowmoreroom="#questionFOUR" style="right:11%;">KNOW MORE</a>
+    <!-- <a href="javascript:;" class="button button-question-continue" data-switch-room="#questionFIVE">CONTINUE</a> -->
+    <div style="background-color:#00AE68;" class="bg"/></div>
+  </div>
+
+  <div class="explain-frame">
+
+    <a href="javascript:;" style="position: absolute;right: 17px;top: 17px;width: 36px;" data-switch-room="#questionFIVE"><img src="../images/btn-close-green.png" class="img-responsive button-question-continue"></a>
+
+    <div class="content" style="max-height: 100%;overflow: auto;">      
+      Verify specific information from the resume. When using yes or no answers, always follow up with open-ended questions (remember the 5W1H rule – who, what, where, when, why and how).
+    </div>
+  </div>
+</div>
+
+            <div id="questionFIVE" class="chapter-div landing-div " style="background-image:url('../images/4_2/a_5.jpg');">
+  <a href="javascript:;" data-scene-select="#questionFIVE" data-scene-answer="false" class="answer left"><img src="../images/4_2/a_b.png" class="img-responsive"/></a>
+  <a href="javascript:;" data-scene-select="#questionFIVE" data-scene-answer="true" class="answer right"><img src="../images/4_2/a_b.png" class="img-responsive"/></a>
+
+  <div class="wrong-frame frame-3 active">
+    <img src="../images/5_2/wrong.png" class="text" />
+    <img src="../images/wrong.png" class="ico"/><p>Opps, it seem like you got it wrong!</p>
+    <a href="javascript:;" class="button button-question-knowmore" data-switch-knowmoreroom="#questionFIVE" style="right:11%;" >KNOW MORE</a>
+    <!-- <a href="javascript:;" class="button button-question-continue" data-switch-room="#questionSIX">CONTINUE</a> -->
+
+    <div style="background-color:#F1535A;" class="bg"/></div>
+  </div>
+ 
+  <div class="correct-frame frame-3 ">
+    <img src="../images/5_2/correct.png" class="text" />
+    <img src="../images/correct.png" class="ico"/><p>Yes, you got it right</p>
+    <a href="javascript:;" class="button button-question-knowmore" data-switch-knowmoreroom="#questionFIVE" style="right:11%;">KNOW MORE</a>
+    <!-- <a href="javascript:;" class="button button-question-continue" data-switch-room="#questionSIX">CONTINUE</a> -->
+    <div style="background-color:#00AE68;" class="bg"/></div>
+  </div>
+
+  <div class="explain-frame">
+
+    <a href="javascript:;" style="position: absolute;right: 17px;top: 17px;width: 36px;" data-switch-room="#questionSIX"><img src="../images/btn-close-green.png" class="img-responsive button-question-continue"></a>
+
+    <div class="content" style="max-height: 100%;overflow: auto;">      
+      Do not give too much information about your business or the expected behaviour from the candidate before gathering information. <br>
+If you tell the applicants exactly what you're looking for first, they can adapt their answers to fit what they perceive as your needs. Instead, use behavioural based questions to find out if she has the expected attributes from the past work experiences. <br>
+Be sure to provide information about the business or job role after the applicants answers your interview questions.
+    </div>
+  </div>
+</div>
+
+            <div id="questionSIX" class="chapter-div landing-div " style="background-image:url('../images/4_2/a_6.jpg');">
+  <a href="javascript:;" data-scene-select="#questionSIX" data-scene-answer="false" class="answer left"><img src="../images/4_2/a_b.png" class="img-responsive"/></a>
+  <a href="javascript:;" data-scene-select="#questionSIX" data-scene-answer="true" class="answer right"><img src="../images/4_2/a_b.png" class="img-responsive"/></a>
+
+  <div class="wrong-frame frame-3 active">
+    <img src="../images/5_2/wrong.png" class="text" />
+    <img src="../images/wrong.png" class="ico"/><p>Opps, it seem like you got it wrong!</p>
+    <a href="javascript:;" class="button button-question-knowmore" data-switch-knowmoreroom="#questionSIX" style="right:11%;" >KNOW MORE</a>
+    <!-- <a href="javascript:;" class="button button-question-continue" data-switch-room="#questionSEVEN">CONTINUE</a> -->
+
+    <div style="background-color:#F1535A;" class="bg"/></div>
+  </div>
+ 
+  <div class="correct-frame frame-3 ">
+    <img src="../images/5_2/correct.png" class="text" />
+    <img src="../images/correct.png" class="ico"/><p>Yes, you got it right</p>
+    <a href="javascript:;" class="button button-question-knowmore" data-switch-knowmoreroom="#questionSIX" style="right:11%;">KNOW MORE</a>
+    <!-- <a href="javascript:;" class="button button-question-continue" data-switch-room="#questionSEVEN">CONTINUE</a> -->
+    <div style="background-color:#00AE68;" class="bg"/></div>
+  </div>
+
+  <div class="explain-frame">
+
+    <a href="javascript:;" style="position: absolute;right: 17px;top: 17px;width: 36px;" data-switch-room="#questionSEVEN"><img src="../images/btn-close-green.png" class="img-responsive button-question-continue"></a>
+
+    <div class="content" style="max-height: 100%;overflow: auto;">      
+      Do not ask discriminative questions during the interview.  However, if these questions are necessary, follow up with reasons for asking the questions. (Refer to Fair Employment Practices for more details) <br><br>
+                - Personal questions can be perceived as discriminative <br>
+                - You should be conscious not to stereotype candidates based on criteria that are not relevant to the job. Confine your questions to those relevant to assessing an applicant’s suitability. If you really need to ask a question which may be perceived to be discriminatory, give the reason for asking to avoid any misunderstanding.
+    </div>
+  </div>
+</div>
+
+            <div id="questionSEVEN" class="chapter-div landing-div " style="background-image:url('../images/4_2/a_7.jpg');">
+  <a href="javascript:;" data-scene-select="#questionSEVEN" data-scene-answer="true" class="answer left"><img src="../images/4_2/a_b.png" class="img-responsive"/></a>
+  <a href="javascript:;" data-scene-select="#questionSEVEN" data-scene-answer="false" class="answer right"><img src="../images/4_2/a_b.png" class="img-responsive"/></a>
+
+  <div class="wrong-frame frame-3 active">
+    <img src="../images/5_2/wrong.png" class="text" />
+    <img src="../images/wrong.png" class="ico"/><p>Opps, it seem like you got it wrong!</p>
+    <a href="javascript:;" class="button button-question-knowmore" data-switch-knowmoreroom="#questionSEVEN" style="right:11%;" >KNOW MORE</a>
+    <!-- <a href="javascript:;" class="button button-question-continue" data-switch-room="#questionEIGHT">CONTINUE</a> -->
+
+    <div style="background-color:#F1535A;" class="bg"/></div>
+  </div>
+ 
+  <div class="correct-frame frame-3 ">
+    <img src="../images/5_2/correct.png" class="text" />
+    <img src="../images/correct.png" class="ico"/><p>Yes, you got it right</p>
+    <a href="javascript:;" class="button button-question-knowmore" data-switch-knowmoreroom="#questionSEVEN" style="right:11%;">KNOW MORE</a>
+    <!-- <a href="javascript:;" class="button button-question-continue" data-switch-room="#questionEIGHT">CONTINUE</a> -->
+    <div style="background-color:#00AE68;" class="bg"/></div>
+  </div>
+
+  <div class="explain-frame">
+
+    <a href="javascript:;" style="position: absolute;right: 17px;top: 17px;width: 36px;" data-switch-room="#questionEIGHT"><img src="../images/btn-close-green.png" class="img-responsive button-question-continue"></a>
+
+    <div class="content" style="max-height: 100%;overflow: auto;">      
+      Complete an evaluation form or firm up your notes, noting specific information about the candidate wherever possible. Rate the candidate. This is especially crucial when you are KIV-ing candidates. You should not trust your memory to recall the details of the interview later.
+    </div>
+  </div>
+</div>
+
+            <div id="questionEIGHT" class="chapter-div landing-div " style="background-image:url('../images/4_2/a_8.jpg');">
+  <a href="javascript:;" data-scene-select="#questionEIGHT" data-scene-answer="false" class="answer left"><img src="../images/4_2/a_b.png" class="img-responsive"/></a>
+  <a href="javascript:;" data-scene-select="#questionEIGHT" data-scene-answer="true" class="answer right"><img src="../images/4_2/a_b.png" class="img-responsive"/></a>
+
+  <div class="wrong-frame frame-3 active">
+    <img src="../images/5_2/wrong.png" class="text" />
+    <img src="../images/wrong.png" class="ico"/><p>Opps, it seem like you got it wrong!</p>
+    <a href="javascript:;" class="button button-question-knowmore" data-switch-knowmoreroom="#questionEIGHT" style="right:11%;" >KNOW MORE</a>
+    <!-- <a href="javascript:;" class="button button-question-continue" data-switch-room="#questionEND">CONTINUE</a> -->
+
+    <div style="background-color:#F1535A;" class="bg"/></div>
+  </div>
+ 
+  <div class="correct-frame frame-3 ">
+    <img src="../images/5_2/correct.png" class="text" />
+    <img src="../images/correct.png" class="ico"/><p>Yes, you got it right</p>
+    <a href="javascript:;" class="button button-question-knowmore" data-switch-knowmoreroom="#questionEIGHT" style="right:11%;">KNOW MORE</a>
+    <!-- <a href="javascript:;" class="button button-question-continue" data-switch-room="#questionEND">CONTINUE</a> -->
+    <div style="background-color:#00AE68;" class="bg"/></div>
+  </div>
+
+  <div class="explain-frame">
+
+    <a href="javascript:;" style="position: absolute;right: 17px;top: 17px;width: 36px;" data-switch-room="#questionEND"><img src="../images/btn-close-green.png" class="img-responsive button-question-continue"></a>
+
+    <div class="content" style="max-height: 100%;overflow: auto;">      
+      Factor in culture suitability when making the decision. While it is important to ensure that the candidate have relevant knowledge and skills for the job on hand, assessing areas of culture suitability should also assist in decision making. Culture refers to our 5 core values and department dynamics e.g. we might prefer someone who is able to work well in a team than someone who is a sole contributor.
+    </div>
+  </div>
+</div>
+
+
+        <div id="questionEND" class="chapter-div landing-div" style="background-image:url('../images/4_2/a_end.png');">
+          <img src="../images/5_2/completed.png" class="complete-text"/>
+          <a href="./chapter_5_1.html" class="button button-exit">OK</a>
+        </div>
+
+
+      </div>
+
+
+    </div>
+  </div>
+
+
+</div>
+
+
+    </div>
+    <!-- Javascript -->
+
+<script src="../javascripts/jquery.min.js"></script>
+<script src="../javascripts/lib.min.js"></script>
+<script src="../javascripts/app.js"></script>
+
+<!-- End Javascript -->
+      <div>  <script>
+    window.sats.chapter.four.two.init();
+  </script>
+</div>
+  </body>
+</html>

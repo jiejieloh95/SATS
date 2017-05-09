@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>Middleman</title>
+    <!-- Stylesheet -->
+<link href="../stylesheets/lib.min.css" rel="stylesheet">
+<link href="../stylesheets/app.css" rel="stylesheet">
+
+<!-- End Stylesheet -->
+    <link href="https://vjs.zencdn.net/5.8/video-js.min.css" rel="stylesheet">
+    <script src="https://vjs.zencdn.net/5.8/video.min.js"></script>
+  </head>
+  <body>
+    <div class="page wrapper">
+      <!--<div class="rotate-message">
+        Please rotate your screen to get a better user experience.
+      </div>-->
+      <div class="page-chapter-2_2_1 full-screen">
+
+
+
+
+  <div class="container-fluid">
+    <div class="chapter-container">
+      <!--<div class="leave-container">
+  <div class="action">
+    <a href="./chapter_2_2.html"><img src="../images/btn-close-orange.png" class="img-responsive"></a>
+  </div>
+</div>
+-->
+      <div class="chapter-frame ">
+        <!-- Scene One -->
+        <div class="active chapter-div landing-div" style="background-image:url('../images/2_2/work_injury/bg.png');">
+          <a class="scene-one scene-one-btn-continue" href="javascript:;"></a>
+        </div>
+        <!-- Scene Two -->
+        <div class="scene-two mca chapter-div landing-div" style="background-image:url('../images/2_2/work_injury/bg-active.png');">
+          <div class="frame">
+            <div class="frame-title">
+              <h1><span>Q.</span>
+              1/3</h2>
+            </div>
+            <div class="frame-question">
+              For Lee’s case, can he claim WICA and do you need to report the incident to MOM (i.e. MOM reportable)?
+            </div>
+            <div class="frame-answer ">
+              <a href="javascript:;" class="answerlink text-long" data-path=".scene-two-wrong"><span class="num">A.</span>Lee can only claim WICA and you do not need to report the incident to MOM.</a>
+              <a href="javascript:;" class="answerlink text-long" data-path=".scene-two-correct"><span class="num">B.</span>Lee cannot claim WICA but you still need to report the incident to MOM.</a>
+              <a href="javascript:;" class="answerlink text-long" data-path=".scene-two-wrong"><span class="num">C.</span>Lee can claim WICA and you need to report the incident to MOM.</a>
+              <a href="javascript:;" class="answerlink text-long" data-path=".scene-two-wrong"><span class="num">D.</span>There is no action required as he was not injured while performing his job duties.</a>
+
+              <div class="frame-action normal">
+                <a href="javascript:;" class="answersubmit">SUBMIT</a>
+              </div>
+            </div>
+
+            <div class="frame-last">
+            </div>
+          </div>
+        </div>
+        <div class="scene-two-correct mca correct chapter-div landing-div" style="background-image:url('../images/2_2/work_injury/bg-active.png');">
+          <div class="frame">
+            <div class="frame-title">
+              <h1><span>Q.</span>
+              1/3</h2>
+            </div>
+            <div class="frame-question">
+              For Lee’s case, can he claim WICA and do you need to report the incident to MOM (i.e. MOM reportable)?
+            </div>
+            <div class="frame-answer">
+              <a href="javascript:;" class="answerlink text-long" data-path=".scene-two-wrong"><span class="num">A.</span>Lee can only claim WICA and you do not need to report the incident to MOM.</a>
+              <a href="javascript:;" class="correctlink answerlink text-long" data-path=".scene-two-correct"><span class="num">B.</span>Lee cannot claim WICA but you still need to report the incident to MOM.</a>
+              <a href="javascript:;" class="answerlink text-long" data-path=".scene-two-wrong"><span class="num">C.</span>Lee can claim WICA and you need to report the incident to MOM.</a>
+              <a href="javascript:;" class="answerlink text-long" data-path=".scene-two-wrong"><span class="num">D.</span>There is no action required as he was not injured while performing his job duties.</a>
+
+              <div class="frame-action success">
+                <img src="../images/correct.png" class="ico"/><p>Yes, you got it right</p>
+                <a href="javascript:;" data-lastroom=".scene-two-correct" class="answernext knowmore" data-path=".scene-two-knowmore">KNOW MORE</a>
+                <a href="javascript:;" data-lastroom=".scene-two-correct" class="answernext continue" data-path=".scene-three">CONTINUE</a>
+              </div>
+            </div>
+
+            <div class="frame-last">
+            </div>
+          </div>
+        </div>
+        <div class="scene-two-wrong mca wrong chapter-div landing-div" style="background-image:url('../images/2_2/work_injury/bg-active.png');">
+          <div class="frame">
+            <div class="frame-title">
+              <h1><span>Q.</span>
+              1/3</h2>
+            </div>
+            <div class="frame-question">
+              For Lee’s case, can he claim WICA and do you need to report the incident to MOM (i.e. MOM reportable)?
+            </div>
+            <div class="frame-answer">
+
+              <a href="javascript:;" class="answerlink text-long" data-path=".scene-two-wrong"><span class="num">A.</span>Lee can only claim WICA and you do not need to report the incident to MOM.</a>
+              <a href="javascript:;" class="correctlink answerlink text-long" data-path=".scene-two-correct"><span class="num">B.</span>Lee cannot claim WICA but you still need to report the incident to MOM.</a>
+              <a href="javascript:;" class="answerlink text-long" data-path=".scene-two-wrong"><span class="num">C.</span>Lee can claim WICA and you need to report the incident to MOM.</a>
+              <a href="javascript:;" class="answerlink text-long" data-path=".scene-two-wrong"><span class="num">D.</span>There is no action required as he was not injured while performing his job duties.</a>
+
+              <div class="frame-action failed">
+                <img src="../images/wrong.png" class="ico"/><p>Opps, it seem like you got it wrong!</p>
+                <a href="javascript:;" data-lastroom=".scene-two-wrong" class="answernext knowmore" data-path=".scene-two-knowmore">KNOW MORE</a>
+                <a href="javascript:;" data-lastroom=".scene-two-wrong" class="answernext continue" data-path=".scene-three">CONTINUE</a>
+              </div>
+            </div>
+
+            <div class="frame-last">
+            </div>
+          </div>
+        </div>
+        <div class="scene-two-knowmore mca explain chapter-div landing-div" style="background-image:url('../images/2_2/work_injury/bg-active.png');">
+          <div class="frame">
+            <div class="frame-explain">
+              <div class="frame-content">
+                <p>What is the difference between WICA and MOM Reportable?<p>
+                <p>WICA lets employees make claims for work related injuries or diseases, without taking legal actions.</p>
+                <p>For more information: <a target="_blank" href="http://www.mom.gov.sg/workplace-safety-and-health/work-injury-compensation">http://www.mom.gov.sg/workplace-safety-and-health/work-injury-compensation</a> </p>
+                <p>MOM Reportable is a work-related accident that is an unintended event that occurs in the course of work that leads to an injury or condition.</p>
+                <p>For more information: <a target="_blank" href="http://www.mom.gov.sg/workplace-safety-and-health/work-accident-reporting">http://www.mom.gov.sg/workplace-safety-and-health/work-accident-reporting</a></p>
+              </div>
+              <a href="javascript:;" data-lastroom=".scene-two-knowmore" class="btn-continue" data-path=".scene-three">CONTINUE</a>
+
+            </div>
+            <div class="frame-last">
+            </div>
+          </div>
+        </div>
+        <!-- Scene Three -->
+        <div class="scene-three mca chapter-div landing-div" style="background-image:url('../images/2_2/work_injury/bg-active.png');">
+          <div class="frame">
+            <div class="frame-title">
+              <h1><span>Q.</span>
+              2/3</h2>
+            </div>
+            <div class="frame-question">
+              If it is a MOM reportable case, when should you report it? Pick the option that is wrong.
+            </div>
+            <div class="frame-answer ">
+
+              <a href="javascript:;" class="answerlink text-long" data-path=".scene-three-wrong"><span class="num">A.</span>Within 10 days from the accident happen</a>
+              <a href="javascript:;" class="answerlink text-long" data-path=".scene-three-correct"><span class="num">B.</span>Within 10 days after the employee returns to work</a>
+              <a href="javascript:;" class="answerlink text-long" data-path=".scene-three-wrong"><span class="num">C.</span>Within 10 days from the medical diagnosis</a>
+              <a href="javascript:;" class="answerlink text-long" data-path=".scene-three-wrong"><span class="num">D.</span>Within 10 days from the 4<sub>th</sub> day of the employee's MC</a>
+
+              <div class="frame-action normal">
+                <a href="javascript:;" class="answersubmit">SUBMIT</a>
+              </div>
+            </div>
+
+            <div class="frame-last">
+            </div>
+          </div>
+        </div>
+        <div class="scene-three-correct mca correct chapter-div landing-div" style="background-image:url('../images/2_2/work_injury/bg-active.png');">
+          <div class="frame">
+            <div class="frame-title">
+              <h1><span>Q.</span>
+              2/3</h2>
+            </div>
+            <div class="frame-question">
+              If it is a MOM reportable case, when should you report it? Pick the option that is wrong.
+            </div>
+            <div class="frame-answer">
+
+              <a href="javascript:;" class="answerlink text-long" data-path=".scene-three-wrong"><span class="num">A.</span>Within 10 days from the accident happen</a>
+              <a href="javascript:;" class="correctlink answerlink text-long" data-path=".scene-three-correct"><span class="num">B.</span>Within 10 days after the employee returns to work</a>
+              <a href="javascript:;" class="answerlink text-long" data-path=".scene-three-wrong"><span class="num">C.</span>Within 10 days from the medical diagnosis</a>
+              <a href="javascript:;" class="answerlink text-long" data-path=".scene-three-wrong"><span class="num">D.</span>Within 10 days from the 4<sub>th</sub> day of the employee's MC</a>
+
+              <div class="frame-action success">
+                <img src="../images/correct.png" class="ico"/><p>Yes, you got it right</p>
+                <a href="javascript:;" data-lastroom=".scene-three-correct" class="answernext knowmore" data-path=".scene-three-knowmore">KNOW MORE</a>
+                <a href="javascript:;" data-lastroom=".scene-three-correct" class="answernext continue" data-path=".scene-four">CONTINUE</a>
+              </div>
+            </div>
+
+            <div class="frame-last">
+            </div>
+          </div>
+        </div>
+        <div class="scene-three-wrong mca wrong chapter-div landing-div" style="background-image:url('../images/2_2/work_injury/bg-active.png');">
+          <div class="frame">
+            <div class="frame-title">
+              <h1><span>Q.</span>
+              2/3</h2>
+            </div>
+            <div class="frame-question">
+              If it is a MOM reportable case, when should you report it? Pick the option that is wrong.
+            </div>
+            <div class="frame-answer">
+
+              <a href="javascript:;" class="answerlink text-long" data-path=".scene-three-wrong"><span class="num">A.</span>Within 10 days from the accident happen</a>
+              <a href="javascript:;" class="correctlink answerlink text-long" data-path=".scene-three-correct"><span class="num">B.</span>Within 10 days after the employee returns to work</a>
+              <a href="javascript:;" class="answerlink text-long" data-path=".scene-three-wrong"><span class="num">C.</span>Within 10 days from the medical diagnosis</a>
+              <a href="javascript:;" class="answerlink text-long" data-path=".scene-three-wrong"><span class="num">D.</span>Within 10 days from the 4<sub>th</sub> day of the employee's MC</a>
+
+              <div class="frame-action failed">
+                <img src="../images/wrong.png" class="ico"/><p>Opps, it seem like you got it wrong!</p>
+                <a href="javascript:;" data-lastroom=".scene-three-wrong" class="answernext knowmore" data-path=".scene-three-knowmore">KNOW MORE</a>
+                <a href="javascript:;" data-lastroom=".scene-three-wrong" class="answernext continue" data-path=".scene-four">CONTINUE</a>
+              </div>
+            </div>
+
+            <div class="frame-last">
+            </div>
+          </div>
+        </div>
+        <div class="scene-three-knowmore mca explain chapter-div landing-div" style="background-image:url('../images/2_2/work_injury/bg-active.png');">
+          <div class="frame">
+            <div class="frame-explain" style="overflow: auto;font-size: 12px;">
+              <div class="frame-content">
+                <p>As a manager, you need to report a work-related accident to MOM when the injured employee is given <span style="color:red;">more than 3 days of medical leave</span>, consecutive or otherwise, due to a single work-related accident.<p>
+                <p>You should count the <span style="color:red;"> calendar days</span> of medical leave, even if the medical leave period extends over any public holiday, a rest day or non-working day. When filing the incident report, use the total number of days of medical leave granted as a result of the single work-related accident.</p>
+                <p>All work-related accidents must be reported to MOM within 10 days of accident or diagnosis, or from the 4th day of medical leave, whichever applies.</p>
+                <p>All work-related accidents must be reported to MOM within 10 days of accident or diagnosis, or from the 4th day of medical leave, whichever applies.</p>
+                <p>Refer to the table below for examples:</p>
+
+                <table>
+                  <tr>
+                    <th>Scenario</th>
+                    <th>Required to report?</th>
+                    <th>when to report</th>
+                    <th>Number of days of MC to be filled in incident report</th>
+                  </tr>
+                  <tr>
+                    <td>MC granted for 3 to 4 Feb (Mon to Tue). <br>
+                     Work on 5 Feb (Wed). <br>
+                      Given further 2 days MC for 6 to 7 Feb (Thu to Fri). </td>
+                    <td>Yes.(4 days of MC consecutive or otherwise.)</td>
+                    <td>Report within 10 days from 7 Feb (i.e. by 16 Feb). </td>
+                    <td>2 + 2 = 4 days</td>
+                  </tr>
+                  <tr>
+                    <td>MC granted for 3 Feb (Mon).<br>
+                     Went for medical follow-up and given further MC for 7 to 10 Mar (Fri to Mon). <br>Sunday is a rest day. </td>
+                    <td>Yes.(5 days of MC consecutive or otherwise.)</td>
+                    <td>Report within 10 days from 9 Mar (i.e. by 18 Mar). </td>
+                    <td>1 + 4 = 5  days</td>
+                  </tr>
+                </table>
+              </div>
+              <a href="javascript:;" data-lastroom=".scene-three-knowmore" class="btn-continue" data-path=".scene-four" style="">CONTINUE</a>
+            </div>
+            <div class="frame-last">
+            </div>
+          </div>
+        </div>
+        <!-- Scene Four -->
+        <div class="scene-four mca chapter-div landing-div" style="background-image:url('../images/2_2/work_injury/bg-active.png');">
+          <div class="frame">
+            <div class="frame-title">
+              <h1><span>Q.</span>
+              3/3</h2>
+            </div>
+            <div class="frame-question">
+              In the case of a heart attack, which scenario can be considered as a work injury after you have received the diagnosis from the doctor in charge of the injured employee?
+            </div>
+            <div class="frame-answer ">
+
+              <a href="javascript:;" class="answerlink text-extra-long" data-path=".scene-four-wrong"><span class="num">A.</span>He had a heart attack from doing strenuous exercise in the company’s gym.</a>
+              <a href="javascript:;" class="answerlink text-extra-long" data-path=".scene-four-wrong"><span class="num">B.</span>He had a heart attack while performing his work duties after a strenuous workout in the gym. The doctor has diagnosed that his over-exertion during the gym workout was the cause of his heart attack or stroke.</a>
+              <a href="javascript:;" class="answerlink text-extra-long" data-path=".scene-four-wrong"><span class="num">C.</span>He had a heart attack after receiving shocking news from the company.</a>
+              <a href="javascript:;" class="answerlink text-extra-long" data-path=".scene-four-correct"><span class="num">D.</span>He had a heart attack because he was required to perform labour intensive duties.</a>
+
+              <div class="frame-action normal">
+                <a href="javascript:;" class="answersubmit">SUBMIT</a>
+              </div>
+            </div>
+
+            <div class="frame-last">
+            </div>
+          </div>
+        </div>
+        <div class="scene-four-correct mca correct chapter-div landing-div" style="background-image:url('../images/2_2/work_injury/bg-active.png');">
+          <div class="frame">
+            <div class="frame-title">
+              <h1><span>Q.</span>
+              3/3</h2>
+            </div>
+            <div class="frame-question">
+              In the case of a heart attack, which scenario can be considered as a work injury after you have received the diagnosis from the doctor in charge of the injured employee?
+            </div>
+            <div class="frame-answer">
+
+              <a href="javascript:;" class="answerlink text-extra-long" data-path=".scene-four-wrong"><span class="num">A.</span>He had a heart attack from doing strenuous exercise in the company’s gym.</a>
+              <a href="javascript:;" class="answerlink text-extra-long" data-path=".scene-four-wrong"><span class="num">B.</span>He had a heart attack while performing his work duties after a strenuous workout in the gym. The doctor has diagnosed that his over-exertion during the gym workout was the cause of his heart attack or stroke.</a>
+              <a href="javascript:;" class="answerlink text-extra-long" data-path=".scene-four-wrong"><span class="num">C.</span>He had a heart attack after receiving shocking news from the company.</a>
+              <a href="javascript:;" class="correctlink answerlink text-extra-long" data-path=".scene-four-correct"><span class="num">D.</span>He had a heart attack because he was required to perform labour intensive duties.</a>
+
+              <div class="frame-action success">
+                <img src="../images/correct.png" class="ico"/><p>Yes, you got it right</p>
+                <a href="javascript:;" data-lastroom=".scene-four-correct" class="answernext knowmore" data-path=".scene-four-knowmore">KNOW MORE</a>
+                <a href="javascript:;" data-lastroom=".scene-four-correct" class="answerend continue" data-completed>CONTINUE</a>
+              </div>
+            </div>
+
+            <div class="frame-last">
+            </div>
+          </div>
+          <div class="frame scene-completed" style="">
+            <div class="frame-completed text-center">
+              <div class="table-wrapper">
+                <div class="table-cell middle-align">
+                  <h2>You have completed this section.</h2>
+                  <a href="./chapter_2_2_1.html" class="final-button final-injury">OK</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="scene-four-wrong mca wrong chapter-div landing-div" style="background-image:url('../images/2_2/work_injury/bg-active.png');">
+          <div class="frame">
+            <div class="frame-title">
+              <h1><span>Q.</span>
+              3/3</h2>
+            </div>
+            <div class="frame-question">
+              In the case of a heart attack, which scenario can be considered as a work injury after you have received the diagnosis from the doctor in charge of the injured employee?
+            </div>
+            <div class="frame-answer">
+
+              <a href="javascript:;" class="answerlink text-extra-long" data-path=".scene-four-wrong"><span class="num">A.</span>He had a heart attack from doing strenuous exercise in the company’s gym.</a>
+              <a href="javascript:;" class="answerlink text-extra-long" data-path=".scene-four-wrong"><span class="num">B.</span>He had a heart attack while performing his work duties after a strenuous workout in the gym. The doctor has diagnosed that his over-exertion during the gym workout was the cause of his heart attack or stroke.</a>
+              <a href="javascript:;" class="answerlink text-extra-long" data-path=".scene-four-wrong"><span class="num">C.</span>He had a heart attack after receiving shocking news from the company.</a>
+              <a href="javascript:;" class="correctlink answerlink text-extra-long" data-path=".scene-four-correct"><span class="num">D.</span>He had a heart attack because he was required to perform labour intensive duties.</a>
+
+              <div class="frame-action failed">
+                <img src="../images/wrong.png" class="ico"/><p>Opps, it seem like you got it wrong!</p>
+                <a href="javascript:;" data-lastroom=".scene-four-wrong" class="answernext knowmore" data-path=".scene-four-knowmore">KNOW MORE</a>
+                <a href="javascript:;" data-lastroom=".scene-four-wrong" class="answerend continue" data-completed>CONTINUE</a>
+              </div>
+            </div>
+
+            <div class="frame-last">
+            </div>
+          </div>
+          <div class="frame scene-completed" style="">
+            <div class="frame-completed text-center">
+              <div class="table-wrapper">
+                <div class="table-cell middle-align">
+                  <h2>You have completed this section.</h2>
+                  <a href="./chapter_2_2_1.html" class="final-button final-injury">OK</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="scene-four-knowmore mca explain chapter-div landing-div" style="background-image:url('../images/2_2/work_injury/bg-active.png');">
+          <div class="frame">
+            <div class="frame-explain" style="font-size: 12px;">
+              <div class="frame-content">
+                <p>When you are evaluating whether an employee’s medical condition has resulted from a work-related incident, you need to take into consideration his job duties and working environment.  Assess whether a work event or exposure to the employee’s working environment has caused or contributed to his medical condition or significantly aggravated an existing injury or medical condition.</p>
+                <p>The exceptions are:</p>
+                <p>• The medical condition involves signs or symptoms that surfaced at work but resulted solely from a non-work-related event or exposure. <br>
+                • The medical condition resulted solely from voluntary participation in a non-work related activity.</p>
+                <p>You must obtain medical advice from the employee’s doctor-in-charge on whether there is a likelihood that his work duties and work environment had contributed to his medical condition or significantly aggravated an existing injury or illness.</p>
+              </div>
+              <a href="javascript:;" data-lastroom=".scene-four-knowmore" class="btn-continue-end" data-completed>CONTINUE</a>
+            </div>
+            <div class="frame-last">
+            </div>
+          </div>
+          <div class="frame scene-completed">
+            <div class="frame-completed text-center">
+              <div class="table-wrapper">
+                <div class="table-cell middle-align">
+                  <h2>You have completed this section.</h2>
+                  <a href="./chapter_2_2_1.html" class="final-button final-injury">OK</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+
+    </div>
+    <!-- Javascript -->
+
+<script src="../javascripts/jquery.min.js"></script>
+<script src="../javascripts/lib.min.js"></script>
+<script src="../javascripts/app.js"></script>
+
+<!-- End Javascript -->
+      <div>  <script>
+    window.sats.chapter.two.two.init();
+  </script>
+</div>
+  </body>
+</html>

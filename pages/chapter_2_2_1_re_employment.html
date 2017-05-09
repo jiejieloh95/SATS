@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>Middleman</title>
+    <!-- Stylesheet -->
+<link href="../stylesheets/lib.min.css" rel="stylesheet">
+<link href="../stylesheets/app.css" rel="stylesheet">
+
+<!-- End Stylesheet -->
+    <link href="https://vjs.zencdn.net/5.8/video-js.min.css" rel="stylesheet">
+    <script src="https://vjs.zencdn.net/5.8/video.min.js"></script>
+  </head>
+  <body>
+    <div class="page wrapper">
+      <!--<div class="rotate-message">
+        Please rotate your screen to get a better user experience.
+      </div>-->
+      <div class="page-chapter-2_2_1 full-screen">
+
+
+
+
+  <div class="container-fluid">
+    <div class="chapter-container">
+      <!--<div class="leave-container">
+  <div class="action">
+    <a href="./chapter_2_2.html"><img src="../images/btn-close-orange.png" class="img-responsive"></a>
+  </div>
+</div>
+-->
+      <div class="chapter-frame ">
+        <!-- Scene One -->
+        <div class="active chapter-div landing-div" style="background-image:url('../images/2_2/re_employment/bg.png');">
+          <a class="scene-one scene-one-btn-continue" href="javascript:;"></a>
+        </div>
+        <!-- Scene Two -->
+        <div class="scene-two mca chapter-div landing-div" style="background-image:url('../images/2_2/re_employment/bg-active.png');">
+          <div class="frame">
+            <div class="frame-title">
+              <h1><span>Q.</span>
+              1/2</h2>
+            </div>
+            <div class="frame-question">
+              Please select one of the re-employment eligibility that is not true.
+            </div>
+            <div class="frame-answer ">
+              <a href="javascript:;" class="answerlink text-extra-long" data-path=".scene-two-wrong"><span class="num">A.</span>The retiring employee is a Singapore citizen or Singapore permanent resident.</a>
+              <a href="javascript:;" class="answerlink text-extra-long" data-path=".scene-two-wrong"><span class="num">B.</span>The retiring employee has served your current employer for at least 3 years before turning 62.</a>
+              <a href="javascript:;" class="answerlink text-extra-long" data-path=".scene-two-wrong"><span class="num">C.</span>The retiring employee is medically fit to continue working.</a>
+              <a href="javascript:;" class="answerlink text-extra-long" data-path=".scene-two-correct"><span class="num">D.</span>The retiring employee needs to take on a lower position during the re-employment.</a>
+
+              <div class="frame-action normal">
+                <a href="javascript:;" class="answersubmit">SUBMIT</a>
+              </div>
+            </div>
+
+            <div class="frame-last">
+            </div>
+          </div>
+        </div>
+        <div class="scene-two-correct mca correct chapter-div landing-div" style="background-image:url('../images/2_2/re_employment/bg-active.png');">
+          <div class="frame">
+            <div class="frame-title">
+              <h1><span>Q.</span>
+              1/2</h2>
+            </div>
+            <div class="frame-question">
+              Please select one of the re-employment eligibility that is not true.
+            </div>
+            <div class="frame-answer">
+
+              <a href="javascript:;" class="answerlink text-extra-long" data-path=".scene-two-wrong"><span class="num">A.</span>The retiring employee is a Singapore citizen or Singapore permanent resident.</a>
+              <a href="javascript:;" class="answerlink text-extra-long" data-path=".scene-two-wrong"><span class="num">B.</span>The retiring employee has served your current employer for at least 3 years before turning 62.</a>
+              <a href="javascript:;" class="answerlink text-extra-long" data-path=".scene-two-wrong"><span class="num">C.</span>The retiring employee is medically fit to continue working.</a>
+              <a href="javascript:;" class=" correctlink answerlink text-extra-long" data-path=".scene-two-correct"><span class="num">D.</span>The retiring employee needs to take on a lower position during the re-employment.</a>
+
+              <div class="frame-action success">
+                <img src="../images/correct.png" class="ico"/><p>Yes, you got it right</p>
+                <a href="javascript:;" data-lastroom=".scene-two-correct" class="answernext knowmore" data-path=".scene-two-knowmore">KNOW MORE</a>
+                <a href="javascript:;" data-lastroom=".scene-two-correct" class="answernext continue" data-path=".scene-three">CONTINUE</a>
+              </div>
+            </div>
+
+            <div class="frame-last">
+            </div>
+          </div>
+        </div>
+        <div class="scene-two-wrong mca wrong chapter-div landing-div" style="background-image:url('../images/2_2/re_employment/bg-active.png');">
+          <div class="frame">
+            <div class="frame-title">
+              <h1><span>Q.</span>
+              1/2</h2>
+            </div>
+            <div class="frame-question">
+              Please select one of the re-employment eligibility that is not true.
+            </div>
+            <div class="frame-answer">
+
+              <a href="javascript:;" class="answerlink text-extra-long" data-path=".scene-two-wrong"><span class="num">A.</span>The retiring employee is a Singapore citizen or Singapore permanent resident.</a>
+              <a href="javascript:;" class="answerlink text-extra-long" data-path=".scene-two-wrong"><span class="num">B.</span>The retiring employee has served your current employer for at least 3 years before turning 62.</a>
+              <a href="javascript:;" class="answerlink text-extra-long" data-path=".scene-two-wrong"><span class="num">C.</span>The retiring employee is medically fit to continue working.</a>
+              <a href="javascript:;" class=" correctlink answerlink text-extra-long" data-path=".scene-two-correct"><span class="num">D.</span>The retiring employee needs to take on a lower position during the re-employment.</a>
+
+              <div class="frame-action failed">
+                <img src="../images/wrong.png" class="ico"/><p>Opps, it seem like you got it wrong!</p>
+                <a href="javascript:;" data-lastroom=".scene-two-wrong" class="answernext knowmore" data-path=".scene-two-knowmore">KNOW MORE</a>
+                <a href="javascript:;" data-lastroom=".scene-two-wrong" class="answernext continue" data-path=".scene-three">CONTINUE</a>
+              </div>
+            </div>
+
+            <div class="frame-last">
+            </div>
+          </div>
+        </div>
+        <div class="scene-two-knowmore mca explain chapter-div landing-div" style="background-image:url('../images/2_2/re_employment/bg-active.png');">
+          <div class="frame">
+            <div class="frame-explain" style="font-size: 12px;">
+              <div class="frame-content">
+                <p>You are eligible for re-employment if you:<p>
+                <p>- Are a Singapore citizen or Singapore permanent resident.</p>
+                <p>- Have served your current employer for at least 3 years before turning 62.</p>
+                <p>- Have satisfactory work performance, as assessed by the employer.</p>
+                <p>- Are medically fit to continue working.</p>
+                <p>P/S: Employees are considered medically fit to continue working as long as their health does not affect their job performance. Employees can only be deemed unfit to work once a proper medical assessment has been made by a doctor. Satisfactory work performance is one of the criteria for re-employment. If you're assessing an employee's eligibility for re-employment, you can take into account their performance over the last 2 to 3 years.</p>
+              </div>
+                <a href="javascript:;" data-lastroom=".scene-two-knowmore" class="btn-continue" data-path=".scene-three">CONTINUE</a>
+
+
+            </div>
+            <div class="frame-last">
+            </div>
+          </div>
+        </div>
+        <!-- Scene Three -->
+        <div class="scene-three mca chapter-div landing-div" style="background-image:url('../images/2_2/re_employment/bg-active.png');">
+          <div class="frame">
+            <div class="frame-title">
+              <h1><span>Q.</span>
+              2/2</h2>
+            </div>
+            <div class="frame-question">
+              Is Rakesh entitled to the same wages if he is re-employed to do the same job?
+            </div>
+            <div class="frame-answer ">
+              <a href="javascript:;" class="answerlink" data-path=".scene-three-correct"><span class="num">A.</span>Yes</a>
+              <a href="javascript:;" class="answerlink" data-path=".scene-three-wrong"><span class="num">B.</span>No</a>
+
+              <div class="frame-action normal">
+                <a href="javascript:;" class="answersubmit">SUBMIT</a>
+              </div>
+            </div>
+
+            <div class="frame-last">
+            </div>
+          </div>
+        </div>
+        <div class="scene-three-correct mca correct chapter-div landing-div" style="background-image:url('../images/2_2/re_employment/bg-active.png');">
+          <div class="frame">
+            <div class="frame-title">
+              <h1><span>Q.</span>
+              2/2</h2>
+            </div>
+            <div class="frame-question">
+              Is Rakesh entitled to the same wages if he is re-employed to do the same job?
+            </div>
+            <div class="frame-answer">
+              <a href="javascript:;" class="correctlink answerlink" data-path=".scene-three-correct"><span class="num">A.</span>Yes</a>
+              <a href="javascript:;" class="answerlink" data-path=".scene-three-wrong"><span class="num">B.</span>No</a>
+              <div class="frame-action success">
+                <img src="../images/correct.png" class="ico"/><p>Yes, you got it right</p>
+                <a href="javascript:;" data-lastroom=".scene-three-correct" class="answernext knowmore" data-path=".scene-three-knowmore">KNOW MORE</a>
+                <a href="javascript:;" data-lastroom=".scene-three-correct" class="answerend continue" data-completed>CONTINUE</a>
+              </div>
+            </div>
+
+            <div class="frame-last">
+            </div>
+          </div>
+
+          <div class="frame scene-completed">
+            <div class="frame-completed text-center">
+              <div class="table-wrapper">
+                <div class="table-cell middle-align">
+                  <h2>You have completed this section.</h2>
+                  <a href="./chapter_2_2_1.html" class="final-button final-employment">OK</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="scene-three-wrong mca wrong chapter-div landing-div" style="background-image:url('../images/2_2/re_employment/bg-active.png');">
+          <div class="frame">
+            <div class="frame-title">
+              <h1><span>Q.</span>
+              2/2</h2>
+            </div>
+            <div class="frame-question">
+              Is Rakesh entitled to the same wages if he is re-employed to do the same job?
+            </div>
+            <div class="frame-answer">
+              <a href="javascript:;" class="correctlink answerlink" data-path=".scene-three-correct"><span class="num">A.</span>Yes</a>
+              <a href="javascript:;" class="answerlink" data-path=".scene-three-wrong"><span class="num">B.</span>No</a>
+              <div class="frame-action failed">
+                <img src="../images/wrong.png" class="ico"/><p>Opps, it seem like you got it wrong!</p>
+                <a href="javascript:;" data-lastroom=".scene-three-wrong" class="answernext knowmore" data-path=".scene-three-knowmore">KNOW MORE</a>
+                <a href="javascript:;" data-lastroom=".scene-three-wrong" class="answerend continue" data-completed>CONTINUE</a>
+              </div>
+            </div>
+
+            <div class="frame-last">
+            </div>
+          </div>
+
+           <div class="frame scene-completed">
+            <div class="frame-completed text-center">
+              <div class="table-wrapper">
+                <div class="table-cell middle-align">
+                  <h2>You have completed this section.</h2>
+                  <a href="./chapter_2_2_1.html" class="final-button final-employment">OK</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="scene-three-knowmore mca explain chapter-div landing-div" style="background-image:url('../images/2_2/re_employment/bg-active.png');">
+          <div class="frame">
+            <div class="frame-explain">
+              <div class="frame-content">
+                <p>His wages shouldn't change because of his age. The amount of wages should be based on reasonable factors such as:<p>
+                <p>• Job scope</p>
+                <p>• Job worth</p>
+                <p>• Performance</p>
+                <p>• Productivity</p>
+                <p>• His seniority at the company</p>
+                <p>P/S: Employer should also take into account any earlier reductions in his salary (for example, when you turned 60). </p>
+              </div>
+              <a href="javascript:;" data-lastroom=".scene-three-knowmore" class="btn-continue-end" data-completed>CONTINUE</a>
+            </div>
+            <div class="frame-last">
+            </div>
+          </div>
+
+
+          <div class="frame scene-completed">
+            <div class="frame-completed text-center">
+              <div class="table-wrapper">
+                <div class="table-cell middle-align">
+                  <h2>You have completed this section.</h2>
+                  <a href="./chapter_2_2_1.html" class="final-button final-employment">OK</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+
+    </div>
+    <!-- Javascript -->
+
+<script src="../javascripts/jquery.min.js"></script>
+<script src="../javascripts/lib.min.js"></script>
+<script src="../javascripts/app.js"></script>
+
+<!-- End Javascript -->
+      <div>  <script>
+    window.sats.chapter.two.two.init();
+  </script>
+</div>
+  </body>
+</html>

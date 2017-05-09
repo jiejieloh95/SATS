@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>Middleman</title>
+    <!-- Stylesheet -->
+<link href="../stylesheets/lib.min.css" rel="stylesheet">
+<link href="../stylesheets/app.css" rel="stylesheet">
+
+<!-- End Stylesheet -->
+    <link href="https://vjs.zencdn.net/5.8/video-js.min.css" rel="stylesheet">
+    <script src="https://vjs.zencdn.net/5.8/video.min.js"></script>
+  </head>
+  <body>
+    <div class="page wrapper">
+      <!--<div class="rotate-message">
+        Please rotate your screen to get a better user experience.
+      </div>-->
+      <div class="page-chapter-8_2_1 full-screen">
+
+  <div class="container-fluid">
+    <div class="chapter-container">
+      <!--<div class="leave-container">
+  <div class="action">
+    <a href="./chapter_2_2.html"><img src="../images/btn-close-orange.png" class="img-responsive"></a>
+  </div>
+</div>
+-->
+      <div class="chapter-frame active">
+        <!-- Scene One -->
+        <div class="scene-one chapter-div landing-div active" style="background-image:url('../images/8_2/screen_1.jpg');">
+          <div class="box_number">
+            <div class="number_animation">62</div>
+          </div>
+
+          <!-- <a href="javascript:;" class="button button-question-one" data-switch-room="#questionONE">CONTINUE</a> -->
+
+          <a class="scene-one-btn-continue" href="javascript:;" data-switch-room="#questionONE"></a>
+        </div>
+
+        <!-- Scene Two -->
+        <div id="questionONE" class="chapter-div landing-div" style="background-image:url('../images/8_2/screen_2.jpg');">
+          <div class="answer-frame active">
+            <a href="javascript:;" class="" style="cursor:pointer;height: 63%;border: 0px solid #FFF;display: inline-block;position: absolute;top: 20%;left: 14%;width: 15%;" data-inner-room="correct"></a>
+            <a href="javascript:;" class="" style="cursor:pointer;height: 63%;border: 0px solid #FFF;display: inline-block;position: absolute;top: 20%;right: 14%;width: 15%;" data-inner-room="wrong"></a>
+          </div>
+          <div class="wrong-frame">
+            <img src="../images/5_2/wrong.png" class="text" />
+            <!-- <a href="javascript:;" class="button button-question-knowmore" data-switch-knowmoreroom="#questionONE">KNOW MORE</a> -->
+            <a href="javascript:;" class="button button-question-continue" data-switch-room="#questionTWO">CONTINUE</a>
+            <div style="background-color:#F1535A;" class="bg"/></div>
+          </div>
+          <div class="correct-frame">
+            <img src="../images/5_2/correct.png" class="text" />
+            <!-- <a href="javascript:;" class="button button-question-knowmore" data-switch-knowmoreroom="#questionONE">KNOW MORE</a> -->
+            <a href="javascript:;" class="button button-question-continue" data-switch-room="#questionTWO">CONTINUE</a>
+            <div style="background-color:#00AE68;" class="bg"/></div>
+          </div>
+          <div class="explain-frame">
+
+            <a href="javascript:;" style="position: absolute;right: 17px;top: 17px;width: 36px;" data-switch-room="#questionTWO"><img src="../images/btn-close-green.png" class="img-responsive"></a>
+
+            <div class="content" style="max-height: 100%;overflow: auto;">
+              explain
+            </div>
+          </div>
+        </div>
+
+        <!-- Scene Three -->
+        <div id="questionTWO" class="chapter-div landing-div" style="background-image:url('../images/8_2/screen_3.jpg');">
+          <!-- <a href="javascript:;" class="button button-question-one" data-switch-room="#questionTHREE">CONTINUE</a> -->
+          <a class="scene-one-btn-continue" href="javascript:;" data-switch-room="#questionTHREE"></a>
+        </div>
+
+
+        <!-- Scene Four -->
+        <div id="questionTHREE" class="chapter-div landing-div" style="background-image:url('../images/8_2/screen_4.jpg');">
+          <a href="javascript:;" class="button button-question-one toggle-button submit"  data-switch-room="#questionEND" data-submit="">SUBMIT</a>
+          <div class="answer-frame active">
+            <a href="javascript:;" class="selection-calc" data-answer-box="answer-evaluation" data-selection-box style="top: 9%;left: 26%;"><img class="img-responsive" src="../images/8_2/c_icon.png" /></a>
+            <a href="javascript:;" class="selection-calc" data-answer-box="answer-consideration" data-selection-box style="top: 9%;left: 52.9%;"><img class="img-responsive" src="../images/8_2/c_icon.png" /></a>
+            <a href="javascript:;" class="selection-calc" data-answer-box="answer-intention" data-selection-box style="top: 35%;left: 58.5%;"><img class="img-responsive" src="../images/8_2/c_icon.png" /></a>
+            <a href="javascript:;" class="selection-calc" data-answer-box="answer-examination" data-selection-box style="top: 35%;left: 30%;"><img class="img-responsive" src="../images/8_2/c_icon.png" /></a>
+
+            <a href="javascript:;" class="selection-calc" data-answer-box="answer-letteroffer" data-selection-box style="top: 60%;left: 24.5%;"><img class="img-responsive" src="../images/8_2/c_icon.png" /></a>
+            <a href="javascript:;" class="selection-calc" data-answer-box="answer-confirmation" data-selection-box style="top: 60%;left: 51%;"><img class="img-responsive" src="../images/8_2/c_icon.png" /></a>
+
+            <a href="javascript:;" class="" data-explain-box="box-evaluation" style="position:absolute;cursor:pointer;bottom: inherit;top: 7%;left: 37%;right: 50%;height: 13%;"></a>
+            <a href="javascript:;" class="" data-explain-box="box-consideration" style="position:absolute;cursor:pointer;bottom: inherit;top: 7%;left: 65%;right: 23%;height: 13%;"></a>
+
+            <a href="javascript:;" class="" data-explain-box="box-intention" style="position:absolute;cursor: pointer;bottom: inherit;top: 31%;left: 40%;right: 46%;height: 13%;"></a>
+            <a href="javascript:;" class="" data-explain-box="box-examination" style="position:absolute;cursor: pointer;bottom: inherit;top: 31%;left: 70%;right: 20%;height: 13%;"></a>
+
+            <a href="javascript:;" class="" data-explain-box="box-letteroffer" style="position:absolute;cursor: pointer;bottom: inherit;top: 57%;left: 37%;right: 52%;height: 13%;"></a>
+            <a href="javascript:;" class="" data-explain-box="box-confirmation" style="position:absolute;cursor: pointer;bottom: inherit;top: 57%;left: 63%;right: 24%;height: 13%;"></a>
+
+            <!-- Answer box -->
+            <div class="answer-box" id="answer-evaluation">
+  <div class="content">
+
+    <div class="inner-content">
+      <a href="javascript:;" class="close-box" data-close-answer-box="answer-evaluation"><img src="../images/btn-close.png" class="img-responsive"></a>
+      <div class="title-section">
+        <div class="no">1</div>
+        <div class="name">EVALUATION</div>
+        <div class="description"><span>HC will notify Head of Department (HOD) to evaluate performance and<br/>recommend employee suitability for re-emploment</span></div>
+        <div class="answer-section">
+          <div class="left">
+            <img class="img-responsive" src="../images/8_2/a_evaluation.png"/>
+
+          </div>
+
+          <div class="right">
+            <p class="question-small">Number of months before re-employment age</p>
+            <div class="action-answers">
+              <a data-img-url="../images/8_2/c_1.png" data-answer="1" data-target-answer="answer-evaluation" data-selected-answer="1" class="small-answer" href="javascript:;">1</a>
+              <a data-img-url="../images/8_2/c_2.png" data-answer="2" data-target-answer="answer-evaluation" data-selected-answer="2" class="small-answer" href="javascript:;">2</a>
+              <a data-img-url="../images/8_2/c_3.png" data-answer="3" data-target-answer="answer-evaluation" data-selected-answer="3" class="small-answer" href="javascript:;">3</a>
+              <a data-img-url="../images/8_2/c_4.png" data-answer="4" data-target-answer="answer-evaluation" data-selected-answer="4" class="small-answer" href="javascript:;">4</a>
+              <a data-img-url="../images/8_2/c_5.png" data-answer="5" data-target-answer="answer-evaluation" data-selected-answer="5" class="small-answer" href="javascript:;">5</a>
+              <a data-img-url="../images/8_2/c_6.png" data-answer="6" data-target-answer="answer-evaluation" data-selected-answer="6" class="small-answer" href="javascript:;">6</a>
+              <br/>
+              <a data-img-url="../images/8_2/c_7.png" data-answer="7" data-target-answer="answer-evaluation" data-selected-answer="7" class="small-answer" href="javascript:;">7</a>
+              <a data-img-url="../images/8_2/c_8.png" data-answer="8" data-target-answer="answer-evaluation" data-selected-answer="8" class="small-answer" href="javascript:;">8</a>
+              <a data-img-url="../images/8_2/c_9.png" data-answer="9" data-target-answer="answer-evaluation" data-selected-answer="9" class="small-answer" href="javascript:;">9</a>
+              <a data-img-url="../images/8_2/c_10.png" data-answer="10" data-target-answer="answer-evaluation" data-selected-answer="10" class="small-answer" href="javascript:;">10</a>
+              <a data-img-url="../images/8_2/c_11.png" data-answer="11" data-target-answer="answer-evaluation" data-selected-answer="11" class="small-answer" href="javascript:;">11</a>
+              <a data-img-url="../images/8_2/c_12.png" data-answer="12" data-target-answer="answer-evaluation" data-selected-answer="12" class="small-answer" href="javascript:;">12</a>
+            </div>
+            <a data-answer-submit="answer-evaluation" class="button" style="right:10%">OK</a>
+          </div>
+
+          <div class="block"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+            <div class="answer-box" id="answer-consideration">
+  <div class="content">
+
+    <div class="inner-content">
+      <a href="javascript:;" class="close-box" data-close-answer-box="answer-consideration"><img src="../images/btn-close.png" class="img-responsive"></a>
+      <div class="title-section">
+        <div class="no">2</div>
+        <div class="name">CONSIDERATION</div>
+        <div class="description"><span>If considered for re-employment, a letter will be given to employee to<br/>notify he can be considered for re-employment if he passes the medical<br/>examination<span/></div>
+        <div class="answer-section">
+          <div class="left">
+            <img class="img-responsive" src="../images/8_2/a_consideration.png"/>
+
+          </div>
+
+          <div class="right">
+            <p class="question-small">Number of months before re-employment age</p>
+            <div class="action-answers">
+              <a data-img-url="../images/8_2/c_1.png" data-answer="1" data-target-answer="answer-consideration" data-selected-answer="1" class="small-answer" href="javascript:;">1</a>
+              <a data-img-url="../images/8_2/c_2.png" data-answer="2" data-target-answer="answer-consideration" data-selected-answer="2" class="small-answer" href="javascript:;">2</a>
+              <a data-img-url="../images/8_2/c_3.png" data-answer="3" data-target-answer="answer-consideration" data-selected-answer="3" class="small-answer" href="javascript:;">3</a>
+              <a data-img-url="../images/8_2/c_4.png" data-answer="4" data-target-answer="answer-consideration" data-selected-answer="4" class="small-answer" href="javascript:;">4</a>
+              <a data-img-url="../images/8_2/c_5.png" data-answer="5" data-target-answer="answer-consideration" data-selected-answer="5" class="small-answer" href="javascript:;">5</a>
+              <a data-img-url="../images/8_2/c_6.png" data-answer="6" data-target-answer="answer-consideration" data-selected-answer="6" class="small-answer" href="javascript:;">6</a>
+              <br/>
+              <a data-img-url="../images/8_2/c_7.png" data-answer="7" data-target-answer="answer-consideration" data-selected-answer="7" class="small-answer" href="javascript:;">7</a>
+              <a data-img-url="../images/8_2/c_8.png" data-answer="8" data-target-answer="answer-consideration" data-selected-answer="8" class="small-answer" href="javascript:;">8</a>
+              <a data-img-url="../images/8_2/c_9.png" data-answer="9" data-target-answer="answer-consideration" data-selected-answer="9" class="small-answer" href="javascript:;">9</a>
+              <a data-img-url="../images/8_2/c_10.png" data-answer="10" data-target-answer="answer-consideration" data-selected-answer="10" class="small-answer" href="javascript:;">10</a>
+              <a data-img-url="../images/8_2/c_11.png" data-answer="11" data-target-answer="answer-consideration" data-selected-answer="11" class="small-answer" href="javascript:;">11</a>
+              <a data-img-url="../images/8_2/c_12.png" data-answer="12" data-target-answer="answer-consideration" data-selected-answer="12" class="small-answer" href="javascript:;">12</a>
+            </div>
+            <a data-answer-submit="answer-consideration" class="button" style="right:10%">OK</a>
+          </div>
+
+          <div class="block"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+            <div class="answer-box" id="answer-intention">
+  <div class="content">
+
+    <div class="inner-content">
+      <a href="javascript:;" class="close-box" data-close-answer-box="answer-intention"><img src="../images/btn-close.png" class="img-responsive"></a>
+      <div class="title-section">
+        <div class="no">3</div>
+        <div class="name">INTENTION</div>
+        <div class="description"><span>Employee indicates whether there is an intention to be re-employment</span></div>
+        <div class="answer-section">
+          <div class="left">
+            <img class="img-responsive" src="../images/8_2/a_intention.png"/>
+
+          </div>
+
+          <div class="right">
+            <p class="question-small">Number of months before re-employment age</p>
+            <div class="action-answers">
+              <a data-img-url="../images/8_2/c_1.png" data-answer="1" data-target-answer="answer-intention" data-selected-answer="1" class="small-answer" href="javascript:;">1</a>
+              <a data-img-url="../images/8_2/c_2.png" data-answer="2" data-target-answer="answer-intention" data-selected-answer="2" class="small-answer" href="javascript:;">2</a>
+              <a data-img-url="../images/8_2/c_3.png" data-answer="3" data-target-answer="answer-intention" data-selected-answer="3" class="small-answer" href="javascript:;">3</a>
+              <a data-img-url="../images/8_2/c_4.png" data-answer="4" data-target-answer="answer-intention" data-selected-answer="4" class="small-answer" href="javascript:;">4</a>
+              <a data-img-url="../images/8_2/c_5.png" data-answer="5" data-target-answer="answer-intention" data-selected-answer="5" class="small-answer" href="javascript:;">5</a>
+              <a data-img-url="../images/8_2/c_6.png" data-answer="6" data-target-answer="answer-intention" data-selected-answer="6" class="small-answer" href="javascript:;">6</a>
+              <br/>
+              <a data-img-url="../images/8_2/c_7.png" data-answer="7" data-target-answer="answer-intention" data-selected-answer="7" class="small-answer" href="javascript:;">7</a>
+              <a data-img-url="../images/8_2/c_8.png" data-answer="8" data-target-answer="answer-intention" data-selected-answer="8" class="small-answer" href="javascript:;">8</a>
+              <a data-img-url="../images/8_2/c_9.png" data-answer="9" data-target-answer="answer-intention" data-selected-answer="9" class="small-answer" href="javascript:;">9</a>
+              <a data-img-url="../images/8_2/c_10.png" data-answer="10" data-target-answer="answer-intention" data-selected-answer="10" class="small-answer" href="javascript:;">10</a>
+              <a data-img-url="../images/8_2/c_11.png" data-answer="11" data-target-answer="answer-intention" data-selected-answer="11" class="small-answer" href="javascript:;">11</a>
+              <a data-img-url="../images/8_2/c_12.png" data-answer="12" data-target-answer="answer-intention" data-selected-answer="12" class="small-answer" href="javascript:;">12</a>
+            </div>
+            <a data-answer-submit="answer-intention" class="button" style="right:10%">OK</a>
+          </div>
+
+          <div class="block"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+            <div class="answer-box" id="answer-examination">
+  <div class="content">
+
+    <div class="inner-content">
+      <a href="javascript:;" class="close-box" data-close-answer-box="answer-examination"><img src="../images/btn-close.png" class="img-responsive"></a>
+      <div class="title-section">
+        <div class="no">4</div>
+        <div class="name">MEDICAL EXAMINATION</div>
+        <div class="description"><span>If an employee intends to be re-employed, HC will arrange for</br> 
+              a medical examination.</span></div>
+        <div class="answer-section">
+          <div class="left">
+            <img class="img-responsive" src="../images/8_2/a_medical.png"/>
+
+          </div>
+
+          <div class="right">
+            <p class="question-small">Number of months before re-employment age</p>
+            <div class="action-answers">
+              <a data-img-url="../images/8_2/c_1.png" data-answer="1" data-target-answer="answer-examination" data-selected-answer="1" class="small-answer" href="javascript:;">1</a>
+              <a data-img-url="../images/8_2/c_2.png" data-answer="2" data-target-answer="answer-examination" data-selected-answer="2" class="small-answer" href="javascript:;">2</a>
+              <a data-img-url="../images/8_2/c_3.png" data-answer="3" data-target-answer="answer-examination" data-selected-answer="3" class="small-answer" href="javascript:;">3</a>
+              <a data-img-url="../images/8_2/c_4.png" data-answer="4" data-target-answer="answer-examination" data-selected-answer="4" class="small-answer" href="javascript:;">4</a>
+              <a data-img-url="../images/8_2/c_5.png" data-answer="5" data-target-answer="answer-examination" data-selected-answer="5" class="small-answer" href="javascript:;">5</a>
+              <a data-img-url="../images/8_2/c_6.png" data-answer="6" data-target-answer="answer-examination" data-selected-answer="6" class="small-answer" href="javascript:;">6</a>
+              <br/>
+              <a data-img-url="../images/8_2/c_7.png" data-answer="7" data-target-answer="answer-examination" data-selected-answer="7" class="small-answer" href="javascript:;">7</a>
+              <a data-img-url="../images/8_2/c_8.png" data-answer="8" data-target-answer="answer-examination" data-selected-answer="8" class="small-answer" href="javascript:;">8</a>
+              <a data-img-url="../images/8_2/c_9.png" data-answer="9" data-target-answer="answer-examination" data-selected-answer="9" class="small-answer" href="javascript:;">9</a>
+              <a data-img-url="../images/8_2/c_10.png" data-answer="10" data-target-answer="answer-examination" data-selected-answer="10" class="small-answer" href="javascript:;">10</a>
+              <a data-img-url="../images/8_2/c_11.png" data-answer="11" data-target-answer="answer-examination" data-selected-answer="11" class="small-answer" href="javascript:;">11</a>
+              <a data-img-url="../images/8_2/c_12.png" data-answer="12" data-target-answer="answer-examination" data-selected-answer="12" class="small-answer" href="javascript:;">12</a>
+            </div>
+            <a data-answer-submit="answer-examination" class="button" style="right:10%">OK</a>
+          </div>
+
+          <div class="block"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+            <div class="answer-box" id="answer-letteroffer">
+  <div class="content">
+
+    <div class="inner-content">
+      <a href="javascript:;" class="close-box" data-close-answer-box="answer-letteroffer"><img src="../images/btn-close.png" class="img-responsive"></a>
+      <div class="title-section">
+        <div class="no">5</div>
+        <div class="name">LETTER OF OFFER</div>
+        <div class="description"><span>If the employee passes the medical examination to employee, <br/>
+              HC will issue the offer of re-employment to staff</span></div>
+        <div class="answer-section">
+          <div class="left">
+            <img class="img-responsive" src="../images/8_2/a_letterofoffer.png"/>
+
+          </div>
+
+          <div class="right">
+            <p class="question-small">Number of months before re-employment age</p>
+            <div class="action-answers">
+              <a data-img-url="../images/8_2/c_1.png" data-answer="1" data-target-answer="answer-letteroffer" data-selected-answer="1" class="small-answer" href="javascript:;">1</a>
+              <a data-img-url="../images/8_2/c_2.png" data-answer="2" data-target-answer="answer-letteroffer" data-selected-answer="2" class="small-answer" href="javascript:;">2</a>
+              <a data-img-url="../images/8_2/c_3.png" data-answer="3" data-target-answer="answer-letteroffer" data-selected-answer="3" class="small-answer" href="javascript:;">3</a>
+              <a data-img-url="../images/8_2/c_4.png" data-answer="4" data-target-answer="answer-letteroffer" data-selected-answer="4" class="small-answer" href="javascript:;">4</a>
+              <a data-img-url="../images/8_2/c_5.png" data-answer="5" data-target-answer="answer-letteroffer" data-selected-answer="5" class="small-answer" href="javascript:;">5</a>
+              <a data-img-url="../images/8_2/c_6.png" data-answer="6" data-target-answer="answer-letteroffer" data-selected-answer="6" class="small-answer" href="javascript:;">6</a>
+              <br/>
+              <a data-img-url="../images/8_2/c_7.png" data-answer="7" data-target-answer="answer-letteroffer" data-selected-answer="7" class="small-answer" href="javascript:;">7</a>
+              <a data-img-url="../images/8_2/c_8.png" data-answer="8" data-target-answer="answer-letteroffer" data-selected-answer="8" class="small-answer" href="javascript:;">8</a>
+              <a data-img-url="../images/8_2/c_9.png" data-answer="9" data-target-answer="answer-letteroffer" data-selected-answer="9" class="small-answer" href="javascript:;">9</a>
+              <a data-img-url="../images/8_2/c_10.png" data-answer="10" data-target-answer="answer-letteroffer" data-selected-answer="10" class="small-answer" href="javascript:;">10</a>
+              <a data-img-url="../images/8_2/c_11.png" data-answer="11" data-target-answer="answer-letteroffer" data-selected-answer="11" class="small-answer" href="javascript:;">11</a>
+              <a data-img-url="../images/8_2/c_12.png" data-answer="12" data-target-answer="answer-letteroffer" data-selected-answer="12" class="small-answer" href="javascript:;">12</a>
+            </div>
+            <a data-answer-submit="answer-letteroffer" class="button" style="right:10%">OK</a>
+          </div>
+
+          <div class="block"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+            <div class="answer-box" id="answer-confirmation">
+  <div class="content">
+
+    <div class="inner-content">
+      <a href="javascript:;" class="close-box" data-close-answer-box="answer-confirmation"><img src="../images/btn-close.png" class="img-responsive"></a>
+      <div class="title-section">
+        <div class="no">6</div>
+        <div class="name">CONFIRMATION</div>
+        <div class="description"><span>Employee has to accept the letter of offer</span></div>
+        <div class="answer-section">
+          <div class="left">
+            <img class="img-responsive" src="../images/8_2/a_confirmation.png"/>
+
+          </div>
+
+          <div class="right">
+            <p class="question-small">Number of months before re-employment age</p>
+            <div class="action-answers">
+              <a data-img-url="../images/8_2/c_1.png" data-answer="1" data-target-answer="answer-confirmation" data-selected-answer="1" class="small-answer" href="javascript:;">1</a>
+              <a data-img-url="../images/8_2/c_2.png" data-answer="2" data-target-answer="answer-confirmation" data-selected-answer="2" class="small-answer" href="javascript:;">2</a>
+              <a data-img-url="../images/8_2/c_3.png" data-answer="3" data-target-answer="answer-confirmation" data-selected-answer="3" class="small-answer" href="javascript:;">3</a>
+              <a data-img-url="../images/8_2/c_4.png" data-answer="4" data-target-answer="answer-confirmation" data-selected-answer="4" class="small-answer" href="javascript:;">4</a>
+              <a data-img-url="../images/8_2/c_5.png" data-answer="5" data-target-answer="answer-confirmation" data-selected-answer="5" class="small-answer" href="javascript:;">5</a>
+              <a data-img-url="../images/8_2/c_6.png" data-answer="6" data-target-answer="answer-confirmation" data-selected-answer="6" class="small-answer" href="javascript:;">6</a>
+              <br/>
+              <a data-img-url="../images/8_2/c_7.png" data-answer="7" data-target-answer="answer-confirmation" data-selected-answer="7" class="small-answer" href="javascript:;">7</a>
+              <a data-img-url="../images/8_2/c_8.png" data-answer="8" data-target-answer="answer-confirmation" data-selected-answer="8" class="small-answer" href="javascript:;">8</a>
+              <a data-img-url="../images/8_2/c_9.png" data-answer="9" data-target-answer="answer-confirmation" data-selected-answer="9" class="small-answer" href="javascript:;">9</a>
+              <a data-img-url="../images/8_2/c_10.png" data-answer="10" data-target-answer="answer-confirmation" data-selected-answer="10" class="small-answer" href="javascript:;">10</a>
+              <a data-img-url="../images/8_2/c_11.png" data-answer="11" data-target-answer="answer-confirmation" data-selected-answer="11" class="small-answer" href="javascript:;">11</a>
+              <a data-img-url="../images/8_2/c_12.png" data-answer="12" data-target-answer="answer-confirmation" data-selected-answer="12" class="small-answer" href="javascript:;">12</a>
+            </div>
+            <a data-answer-submit="answer-confirmation" class="button" style="right:10%">OK</a>
+          </div>
+
+          <div class="block"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+            <!-- Explain box -->
+            <div class="explain-box" id="box-evaluation" style="width: 18%;height: 20%;left: 35%;top: 21%;">
+  <a href="javascript:;" style="position: absolute;right: -6px;top: 10px;width: 36px;" data-close-inner><img src="../images/btn-close.png" class="img-responsive"></a>
+  <div class="content">
+    <p>HC will notify Head of Department (HoD) to evaluate performance and recommend staff suitability for re-employment</p>
+  </div>
+</div>
+
+
+            <div class="explain-box" id="box-consideration" style="width: 18%;height: 20%;left: 64%;top: 21%;">
+  <a href="javascript:;" style="position: absolute;right: -6px;top: 10px;width: 36px;" data-close-inner><img src="../images/btn-close.png" class="img-responsive"></a>
+  <div class="content">
+    <p>if considered for re-employment, a letter will be given to employee to notify he can be considered for re-employment if he passes the medical examination </p>
+  </div>
+</div>
+
+
+            <div class="explain-box" id="box-intention" style="width: 18%;height: 20%;left: 39%;top: 44%;">
+  <a href="javascript:;" style="position: absolute;right: -6px;top: 10px;width: 36px;" data-close-inner><img src="../images/btn-close.png" class="img-responsive"></a>
+  <div class="content">
+    <p>If an employee intends to be re-employed, HC will arrange for a medical examination</p>
+  </div>
+</div>
+
+
+            <div class="explain-box" id="box-examination" style="width: 18%;height: 20%;left: 68%;top: 44%;">
+  <a href="javascript:;" style="position: absolute;right: -6px;top: 10px;width: 36px;" data-close-inner><img src="../images/btn-close.png" class="img-responsive"></a>
+  <div class="content">
+    <p>Employee indicates whether there is an intention to be re-employed</p>
+  </div>
+</div>
+
+
+
+
+            <div class="explain-box" id="box-letteroffer" style="width: 18%;height: 20%;left: 36%;top: 69%;">
+  <a href="javascript:;" style="position: absolute;right: -6px;top: 10px;width: 36px;" data-close-inner><img src="../images/btn-close.png" class="img-responsive"></a>
+  <div class="content">
+    <p>if the employee passes the medical examination to employee, HC will issue the offer of re-employment to staff </p>
+  </div>
+</div>
+
+
+            <div class="explain-box" id="box-confirmation" style="width: 18%;height: 20%;left: 62%;top: 69%;">
+  <a href="javascript:;" style="position: absolute;right: -6px;top: 10px;width: 36px;" data-close-inner><img src="../images/btn-close.png" class="img-responsive"></a>
+  <div class="content">
+    <p>Employee has to accept the letter of offer </p>
+  </div>
+</div>
+
+
+          </div>
+        </div>
+
+
+        <!-- Scene Six -->
+        <div id="questionEND" class="chapter-div landing-div" style="background-image:url('../images/8_2/screen_4_completed.jpg');">
+          <img src="../images/5_2/completed.png" class="complete-text"/>
+          <a href="./chapter_8_3.html" class="button button-exit">OK</a>
+        </div>
+
+      </div>
+
+
+    </div>
+  </div>
+
+
+</div>
+
+
+    </div>
+    <!-- Javascript -->
+
+<script src="../javascripts/jquery.min.js"></script>
+<script src="../javascripts/lib.min.js"></script>
+<script src="../javascripts/app.js"></script>
+
+<!-- End Javascript -->
+      <div>  <script>
+    window.sats.chapter.eight.two.init();
+  </script>
+</div>
+  </body>
+</html>

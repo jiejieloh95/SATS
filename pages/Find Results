@@ -1,0 +1,129 @@
+Searching 58 files for "click play buton to start"
+
+/Users/Dennis/Desktop/sats/sats /website/source/pages/chapter_1_1.html.erb:
+   19            <h1 class="placeholder-title" style="margin-top:25%;">
+   20              <span>1-1 Course Introduction</span>
+   21:           Click play button to start</h1>
+   22          </a>
+   23          <video id="SatsVideo" class="video-js vjs-default-skin chapter-div" data-complete="" controls
+
+/Users/Dennis/Desktop/sats/sats /website/source/pages/chapter_2_1.html.erb:
+   19            <h1 class="placeholder-title" style="margin-top:25%;">
+   20              <span>2-1 SATS HR Working Environment</span>
+   21:           Click play button to start</h1>
+   22          </a>
+   23          <video id="SatsVideo" class="video-js vjs-default-skin chapter-div" data-complete="" controls
+
+/Users/Dennis/Desktop/sats/sats /website/source/pages/chapter_2_3.html.erb:
+   19            <h1 class="placeholder-title" style="margin-top:25%;">
+   20              <span>2-3 Diversity</span>
+   21:           Click play button to start</h1>
+   22          </a>
+   23          <video id="SatsVideo" class="video-js vjs-default-skin chapter-div" data-complete="" controls
+
+/Users/Dennis/Desktop/sats/sats /website/source/pages/chapter_3_1.html.erb:
+   18            <h1 class="placeholder-title" style="margin-top:25%;">
+   19              <span>3-1 Manpower Planning</span>
+   20:           Click play button to start</h1>
+   21          </a>
+   22          <video id="SatsVideo" class="video-js vjs-default-skin chapter-div" data-complete="" controls
+
+/Users/Dennis/Desktop/sats/sats /website/source/pages/chapter_3_2.html.erb:
+   19            <h1 class="placeholder-title" style="margin-top:25%;">
+   20              <span>3-2 Engagement In Employment Lifecycle</span>
+   21:           Click play button to start</h1>
+   22          </a>
+   23          <video id="SatsVideo" class="video-js vjs-default-skin chapter-div" data-complete="" controls
+
+/Users/Dennis/Desktop/sats/sats /website/source/pages/chapter_4_1.html.erb:
+   19            <h1 class="placeholder-title" style="margin-top:25%;">
+   20              <span>4-1 The Cost Of Wrong Hire</span>
+   21:           Click play button to start</h1>
+   22          </a>
+   23          <video id="SatsVideo" class="video-js vjs-default-skin chapter-div" data-complete="" controls
+
+/Users/Dennis/Desktop/sats/sats /website/source/pages/chapter_5_1.html.erb:
+   21            <h1 class="placeholder-title" style="margin-top:25%;">
+   22              <span>5-1 SATS Probation Process</span>
+   23:           Click play button to start</h1>
+   24          </a>
+   25          <video id="SatsVideo" class="video-js vjs-default-skin chapter-div" data-complete="" controls
+
+/Users/Dennis/Desktop/sats/sats /website/source/pages/chapter_5_3.html.erb:
+   21            <h1 class="placeholder-title" style="margin-top:25%;">
+   22              <span>5-3 KPI Setting</span>
+   23:           Click play button to start</h1>
+   24          </a>
+   25          <video id="SatsVideo" class="video-js vjs-default-skin chapter-div" data-complete="" controls
+
+/Users/Dennis/Desktop/sats/sats /website/source/pages/chapter_5_4.html.erb:
+   21            <h1 class="placeholder-title" style="margin-top:25%;">
+   22              <span>5-4 Confirmation</span>
+   23:           Click play button to start</h1>
+   24          </a>
+   25          <video id="SatsVideo" class="video-js vjs-default-skin chapter-div" data-complete="" controls
+
+/Users/Dennis/Desktop/sats/sats /website/source/pages/chapter_6_1.html.erb:
+   19            <h1 class="placeholder-title" style="margin-top:25%;">
+   20              <span>6-1 Performance Management Framework</span>
+   21:           Click play button to start</h1>
+   22          </a>
+   23          <video id="SatsVideo" class="video-js vjs-default-skin chapter-div" data-complete="" controls
+
+/Users/Dennis/Desktop/sats/sats /website/source/pages/chapter_6_2.html.erb:
+   20            <h1 class="placeholder-title" style="margin-top:25%;">
+   21              <span>6-2 Planning</span>
+   22:           Click play button to start</h1>
+   23          </a>
+   24          <video id="SatsVideo" class="video-js vjs-default-skin chapter-div" data-complete="" controls
+
+/Users/Dennis/Desktop/sats/sats /website/source/pages/chapter_6_3.html.erb:
+   19            <h1 class="placeholder-title" style="margin-top:25%;">
+   20              <span>6-3 Tracking / Coaching</span>
+   21:           Click play button to start</h1>
+   22          </a>
+   23          <video id="SatsVideo" class="video-js vjs-default-skin chapter-div" data-complete="" controls
+
+/Users/Dennis/Desktop/sats/sats /website/source/pages/chapter_6_5.html.erb:
+   19            <h1 class="placeholder-title" style="margin-top:25%;">
+   20              <span>6-5 Reinforcing / Developing</span>
+   21:           Click play button to start</h1>
+   22          </a>
+   23          <video id="SatsVideo" class="video-js vjs-default-skin chapter-div" data-complete="" controls
+
+/Users/Dennis/Desktop/sats/sats /website/source/pages/chapter_7_1.html.erb:
+   20            <h1 class="placeholder-title" style="margin-top:25%;">
+   21              <span>7-1 People Development</span>
+   22:           Click play button to start</h1>
+   23          </a>
+   24          <video id="SatsVideo" class="video-js vjs-default-skin chapter-div" data-complete="" controls
+
+/Users/Dennis/Desktop/sats/sats /website/source/pages/chapter_7_3.html.erb:
+   19            <h1 class="placeholder-title" style="margin-top:25%;">
+   20              <span>7-3 Needs Vs Wants</span>
+   21:           Click play button to start</h1>
+   22          </a>
+   23          <video id="SatsVideo" class="video-js vjs-default-skin chapter-div" data-complete="" controls
+
+/Users/Dennis/Desktop/sats/sats /website/source/pages/chapter_7_4.html.erb:
+   18            <h1 class="placeholder-title" style="margin-top:25%;">
+   19              <span>7-4 Who Need The Training?</span>
+   20:           Click play button to start</h1>
+   21          </a>
+   22          <video id="SatsVideo" class="video-js vjs-default-skin chapter-div" data-complete="" controls
+
+/Users/Dennis/Desktop/sats/sats /website/source/pages/chapter_7_5.html.erb:
+   18            <h1 class="placeholder-title" style="margin-top:25%;">
+   19              <span>7-5 Knowledge Management</span>
+   20:           Click play button to start</h1>
+   21          </a>
+   22          <video id="SatsVideo" class="video-js vjs-default-skin chapter-div" data-complete="" controls
+
+/Users/Dennis/Desktop/sats/sats /website/source/pages/chapter_8_3.html.erb:
+   19            <h1 class="placeholder-title" style="margin-top:25%;">
+   20              <span>8-3 What Should You Do On Staff’s Exit</span>
+   21:           Click play button to start</h1>
+   22          </a>
+   23          <video id="SatsVideo" class="video-js vjs-default-skin chapter-div" data-complete="" controls
+
+18 matches across 18 files

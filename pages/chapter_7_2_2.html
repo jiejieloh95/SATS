@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>Middleman</title>
+    <!-- Stylesheet -->
+<link href="../stylesheets/lib.min.css" rel="stylesheet">
+<link href="../stylesheets/app.css" rel="stylesheet">
+
+<!-- End Stylesheet -->
+    <link href="https://vjs.zencdn.net/5.8/video-js.min.css" rel="stylesheet">
+    <script src="https://vjs.zencdn.net/5.8/video.min.js"></script>
+  </head>
+  <body>
+    <div class="page wrapper">
+      <!--<div class="rotate-message">
+        Please rotate your screen to get a better user experience.
+      </div>-->
+      <div class="page-chapter-7_2_1 full-screen">
+
+  <div class="container-fluid">
+    <div class="chapter-container">
+      <!--<div class="leave-container">
+  <div class="action">
+    <a href="./chapter_2_2.html"><img src="../images/btn-close-orange.png" class="img-responsive"></a>
+  </div>
+</div>
+-->
+      <div class="chapter-frame active">
+        <!-- Scene One -->
+        <div class="scene-one chapter-div landing-div active auto-flow" style="background-image: url(../images/7_2/screen_4.jpg)">
+         <!--  <a href="javascript:;" class="button-2" data-switch-room="#questionONE">
+            <img src="../images/7_2/cb.png"/>
+          </a> -->
+
+          <a class="scene-one-btn-continue" href="javascript:;" data-switch-room="#questionONE"></a>
+
+        </div>
+        <div id="questionONE" class="scene-two chapter-div landing-div  auto-flow" style="background-image: url(../images/7_2/screen_5.jpg)">
+          <div class="container-question">
+            <!-- If you found any line between each image, please make sure there's no empty space in the image -->
+            <!-- Data relator is for change background-color only( when the answer is incorrect) -->
+            <div class="q q4" data-relator="q4">
+              <ul id="q4" class="questions-list">
+              </ul>
+            </div>
+            <div class="q q5" data-relator="q5">
+              <ul id="q5" class="questions-list">
+              </ul>
+            </div>
+            <div class="q q6" data-relator="q6">
+              <ul id="q6" class="questions-list">
+              </ul>
+            </div>
+          </div>
+          <div class="container-answers special">
+            <ul class="answers-list">
+              <li class="qa4" data-id="q4">
+                <img src="../images/7_2/q3.png" class="active"/>
+                <img src="../images/7_2/q3_c.png" class="real"/>
+                <img src="../images/7_2/q3_w.png" class="false"/>
+              </li>
+              <li class="qa5" data-id="q5">
+                <img src="../images/7_2/q1.png" class="active"/>
+                <img src="../images/7_2/q1_c.png" class="real"/>
+                <img src="../images/7_2/q1_w.png" class="false"/>
+              </li>
+              <li class="qa6" data-id="q6">
+                <img src="../images/7_2/q2.png" class="active q6_image"/>
+                <img src="../images/7_2/q2_c.png" class="real"/>
+                <img src="../images/7_2/q2_w.png" class="false"/>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Answer box -->
+          <div class="correct-frame" data-correct-id="q4">
+  <img src="../images/5_2/correct.png" class="text">
+  <!--<a href="javascript:;" class="button button-question-knowmore" data-knowmore-room="q4">KNOW MORE</a>-->
+  <a href="javascript:;" class="button button-question-continue" data-continue-exit="q4">CONTINUE</a>
+  <div style="background-color:#00AE68;" class="bg"></div>
+</div>
+
+<!--
+<div class="explain-frame" data-knowmore-room-id="q4" id="q4" style="">
+  <a href="javascript:;" style="position: absolute;right: 13px;top: 20px;width: 25px;" data-close-inner="q4"><img src="../images/btn-close-green.png" class="img-responsive"></a>
+  <div class="content">
+    <p>Do you remember the cost of wrong hiring? There are tangible and intangible costs to the company. You can avoid these costs by conducting a proper recruitment interview process.</p>
+                      <p>- Know what the skills necessary for the position. Be certain of the details.</p>
+                      <p>- Read through the application form or resume of the interviewee before the interview.</p>
+                      <p>- Verify specific information from the resume. When using yes or no answers, always follow up with open-ended questions</p>
+                      <p>- Never ask a leading question as it subtly prompts an answer in a particular way.</p>
+                      <p>- Do not give too much information about your business or the expected behaviour from the candidate before gathering information.</p>
+                      <p>- Do not ask discriminative questions during the interview to avoid legal complications.</p>
+                      <p>-	Complete an evaluation form at the end of the interview to capture your observations about the candidate before you forget.</p>
+                      <p>- Factor in culture suitability when making the decision.</p>
+  </div>
+</div>
+-->
+
+
+          <div class="correct-frame" data-correct-id="q5">
+  <img src="../images/5_2/correct.png" class="text">
+  <!--<a href="javascript:;" class="button button-question-knowmore" data-knowmore-room="q5">KNOW MORE</a>-->
+  <a href="javascript:;" class="button button-question-continue" data-continue-exit="q5">CONTINUE</a>
+  <div style="background-color:#00AE68;" class="bg"></div>
+</div>
+
+<!--
+<div class="explain-frame" data-knowmore-room-id="q5" id="q5" style="">
+  <a href="javascript:;" style="position: absolute;right: 13px;top: 20px;width: 25px;" data-close-inner="q5"><img src="../images/btn-close-green.png" class="img-responsive"></a>
+  <div class="content">
+    <p>Probation is the initial period of employment for you to assess the new employee’s suitability and capabilities. There are 3 major stages in probation process: Induction, KPI setting, and Confirmation</p>
+                      <p>Induction – employee goes through the Familiarisation programme (FAM) and Business Unit (BU) induction</p>
+                      <p>KPI setting – the job scope and the expected job performance standard should be clearly stated to your new employee. </p>
+                      <p>Confirmation – confirmation of an employee should be based on their work performance, attitude, attendance and discipline</p>
+                      <p>Be aware that the time frame for probation process is 6 months, employee will be “auto confirmed” at the end of the 6th month if nothing is done by the people manager. </p>
+  </div>
+</div>
+-->
+
+
+          <div class="correct-frame" data-correct-id="q6">
+  <img src="../images/5_2/correct.png" class="text">
+  <!--<a href="javascript:;" class="button button-question-knowmore" data-knowmore-room="q6">KNOW MORE</a>-->
+  <a href="javascript:;" class="button button-question-continue" data-continue-exit="q6">CONTINUE</a>
+  <div style="background-color:#00AE68;" class="bg"></div>
+</div>
+
+<!--
+<div class="explain-frame" data-knowmore-room-id="q6" id="q6" style="">
+  <a href="javascript:;" style="position: absolute;right: 13px;top: 20px;width: 25px;" data-close-inner="q6"><img src="../images/btn-close-green.png" class="img-responsive"></a>
+  <div class="content">
+    <p>The purpose of performance management is to ensure that people are developed to achieve the organisation objectives.
+                      <p>High performers are those who demonstrate SATS competencies to achieve high results [show the result / effort graph)</p>
+                      <p>A performance management cycle includes:</p>
+                      <p>Planning – Set only 3 to 6 SMART KPIs, Failure to set KPIs will result in a default PL4 rating!</p>
+                      <p>Tracking – Collate factual information concerning your employees work performance. This is done by making observation and holding dialogue sessions with your employees. These will be the evidences you can use when appraising their performance. </p>
+                      <p>Appraisal – Schedule an appraisal meeting to review your employee’s performance according to each KPI and relevant competencies. Do not disclose the performance rating as there is a department and company-wide calibration process.</p>
+                      <p>Reinforce – reward the high performer to recognise their results and reinforce their efforts.  If there are gaps in the employee’s performance, developmental support should be provided.</p>
+  </div>
+</div>
+-->
+
+
+
+
+          <div class="wrong-frame">
+            <img src="../images/5_2/wrong.png" class="text">
+            <a href="javascript:;" class="button button-question-continue" data-continue-wrong-frame=>CONTINUE</a>
+            <div style="background-color:#F1535A;" class="bg"></div>
+          </div>
+
+
+
+          <div class="overlay-sucess">
+            <img src="../images/5_2/completed.png" class="complete-text"/>
+            <a href="./chapter_7_3.html" class="button button-exit">OK</a>
+          </div>
+        </div>
+
+
+      </div>
+
+
+    </div>
+  </div>
+
+
+</div>
+
+
+    </div>
+    <!-- Javascript -->
+
+<script src="../javascripts/jquery.min.js"></script>
+<script src="../javascripts/lib.min.js"></script>
+<script src="../javascripts/app.js"></script>
+
+<!-- End Javascript -->
+      <div>  <script>
+    window.sats.chapter.seven.two.init();
+  </script>
+</div>
+  </body>
+</html>
